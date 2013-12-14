@@ -1,3 +1,7 @@
+vintage_west_front:
+    resource: "@VintageWestFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
 vintage_west_admin:
     resource: "@VintageWestAdminBundle/Resources/config/routing.yml"
     prefix:   /

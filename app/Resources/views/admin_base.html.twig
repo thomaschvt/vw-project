@@ -6,44 +6,36 @@
     {% block stylesheets %}{% endblock %}
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/css/bootstrap.css') }}" type="text/css" media="all" />
-    <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/css/sb-admin.css') }}">
+    <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/css/responsive-responsive.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/font-awesome/css/font-awesome.css') }}">
-
+    <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/css/style.css') }}">
 </head>
 <body>
-<div id="wrapper">
-
-    <!-- Sidebar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">SB Admin</a>
+<div id="mainWrapper">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="#">Vintage West</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="{{ path('car') }}">Les Combis</a></li>
+                        <li class="active"><a href="#">Les news</a></li>
+                        <li class="active"><a href="{{ path('imageillustration') }}">Les images</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
         </div>
+    </div>
+    <div class="container">
+        {% block body %}{% endblock %}
+    </div>
+</div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav side-nav">
-                <li><a href="{{ path('car') }}"><i class=""></i>Les combis</a></li>
-                <li><a href="{{ path('equipement') }}"><i class=""></i>Les équipements</a></li>
-                <li><a href="{{ path('imageillustration') }}"><i class=""></i>Gestion des images</a></li>
-
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right navbar-user">
-                <li class="dropdown messages-dropdown">
-                   <a href="#">voir le site</a>
-                </li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </nav>
-
-{% block body %}{% endblock %}
 {% block javascripts %}
     <script src="{{ asset('bundles/vintagewestadmin/js/jquery-1.10.2.js') }}"></script>
     <script src="{{ asset('bundles/vintagewestadmin/js/bootstrap.js') }}"></script>

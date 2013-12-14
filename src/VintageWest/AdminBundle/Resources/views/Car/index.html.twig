@@ -1,32 +1,34 @@
 {% extends '::admin_base.html.twig' %}
 
 {% block body -%}
-    <h1>Car list</h1>
 
-    <table class="records_list">
+    <h1>Les combis</h1>
+    <table class="table table-hover tablesorter">
         <thead>
-            <tr>
-                <th>Id</th>
-                <th>Model</th>
-                <th>Year</th>
-                <th>Dimension</th>
-                <th>Engine</th>
-                <th>Carburation</th>
-                <th>Consumption</th>
-                <th>Speed</th>
-                <th>Sleeping</th>
-                <th>Seats</th>
-                <th>Imgurl</th>
-                <th>Descriptionfr</th>
-                <th>Descriptionen</th>
-                <th>Descriptiones</th>
-                <th>Actions</th>
-            </tr>
+        <tr>
+
+            <th>Model</th>
+            <th>Year</th>
+            <th>Dimension</th>
+            <th>Engine</th>
+            <th>Carburation</th>
+            <th>Consumption</th>
+            <th>Speed</th>
+            <th>Sleeping</th>
+            <th>Seats</th>
+            <th>Imgurl</th>
+            <th>Descriptionfr</th>
+            <th>Descriptionen</th>
+            <th>Descriptiones</th>
+            <th>Voir</th>
+            <th>Editer</th>
+            <th>Supprimer</th>
+        </tr>
         </thead>
         <tbody>
         {% for entity in entities %}
             <tr>
-                <td><a href="{{ path('car_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+
                 <td>{{ entity.model }}</td>
                 <td>{{ entity.year }}</td>
                 <td>{{ entity.dimension }}</td>
@@ -40,26 +42,17 @@
                 <td>{{ entity.descriptionFr }}</td>
                 <td>{{ entity.descriptionEn }}</td>
                 <td>{{ entity.descriptionEs }}</td>
-                <td>
-                <ul>
-                    <li>
-                        <a href="{{ path('car_show', { 'id': entity.id }) }}">show</a>
-                    </li>
-                    <li>
-                        <a href="{{ path('car_edit', { 'id': entity.id }) }}">edit</a>
-                    </li>
-                </ul>
-                </td>
+                <td><a href="{{ path('car_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td><a href="{{ path('car_edit', { 'id': entity.id }) }}">edit</a></td>
+                <td><a href="{{ path('car_delete', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+
             </tr>
         {% endfor %}
         </tbody>
     </table>
 
-        <ul>
-        <li>
-            <a href="{{ path('car_create') }}">
-                Create a new entry
-            </a>
-        </li>
-    </ul>
+
+    <a href="{{ path('car_create') }}">
+        <button class="btn btn-success"><i class="fa fa-plus-circle"></i> Créer</button>
+    </a>
     {% endblock %}

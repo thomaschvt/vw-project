@@ -1,0 +1,111 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    background-image:url('../img/bg.png');
+     background-repeat:repeat-y repeat-x;
+     
+}
+.navbar-inverse .navbar-inner{
+    background: #361b01 !important;
+    border-color: none;
+}
+.navbar-inverse .nav .active>a{
+    background: #361b01 !important;
+}
+.icn_res_sociaux img{
+    width: 20px;
+    margin-top: 7px;
+}
+.title-orange{
+    font-family: 'Lobster', cursive;
+    color: #faa50c;
+}
+.title-brown{
+    font-family: 'Lobster', cursive;
+    color: #361b01;
+}
+p{
+    text-align: justify;
+}
+.text-white{
+    color: white;
+}
+.icn-flags {
+    width:20px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.padding-top-bottom{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/*Index*/
+.three-point-bloc{
+    background: #361b01;
+    border-bottom: 5px solid #faa50c;
+    margin-top: 5px;
+}
+#news{
+   margin-top: -17px;
+    height:290px;
+    
+}
+.mini-news{
+    border-bottom: 1px solid #361b01;
+    margin-bottom: 17px;
+}
+#news h4{
+    font-size: 20px;
+}
+.cs-title{
+    width: 735px;
+}
+/**/
+/*Footer*/
+#container-footer-large{
+    margin-top: 20px;
+    background: #361b01;
+}
+/**/
+
+/*Contact*/
+#btn-google-maps{
+    margin-top: 25px;
+}
+#info-contact-page{
+    float: left;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+/**/
+
+/*news*/
+.bloc-mini-news{
+    background-color: rgba(255, 255, 255, 0.2);
+    
+}
+.titre-news{
+    color: #361b01;
+    font-weight: bold;
+}
+#content-focus-news{
+    margin-top: 10px;
+   
+}
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
