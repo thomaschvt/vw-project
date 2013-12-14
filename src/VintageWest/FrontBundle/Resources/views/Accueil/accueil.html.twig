@@ -1,0 +1,99 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+    <?php
+include 'header.php';
+?>
+
+    <div id="mainWrapper">
+        <div class="container">
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="row">
+                <div id="slider" class="span8">
+                    <div id='coin-slider'>
+                        <a href="img01_url" target="_blank">
+                            <img src='{{ asset('bundles/vintagewestfront/img/slide1.png') }}' >
+                    <span>
+                        Description for img01
+                    </span>
+                        </a>
+                    </div>
+
+                </div>
+                <div id="news" class="span4">
+                    <h2 class="title-brown">News</h2>
+                    <div class="mini-news">
+                        <h4  class="">Test</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra fringilla ultr....</p>
+                    </div>
+                    <div class="mini-news">
+                        <h4  class="">Test</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra fringilla ultr....</p>
+                    </div>
+                    <div class="mini-news">
+                        <h4  class="">Test</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra fringilla ultr....</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="three-point-bloc">
+            <div class="container">
+                <div class="row">
+                    <div class="span4">
+                        <h2 class="title-orange">Une nuit, un week end, une semaine...</h2>
+                        <p class="text-white">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                    </div>
+                    <div class="span4">
+                        <h2 class="title-orange">Des véhicules surs</h2>
+                        <p class="text-white">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                    </div>
+                    <div class="span4">
+                        <h2 class="title-orange">Une expérience inoubliable</h2>
+                        <p class="text-white">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <h2 class="title-brown">Concept</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec lectus augue. Vestibulum commodo sapien risus, eu sodales nisl pulvinar sit amet. Mauris eleifend vel ipsum in faucibus. Aliquam in nunc et sem feugiat gravida. Sed vitae ultrices mi. Ut vel metus augue. Aliquam lectus dui, tincidunt condimentum consectetur in, porttitor ac ante. Curabitur a eros non nisi consectetur egestas. Praesent vitae dolor feugiat, rhoncus diam vitae, ultrices tellus.
+
+                        Pellentesque ac augue aliquam, tincidunt metus eu, rhoncus arcu. Suspendisse fringilla odio auctor velit iaculis elementum. Aenean id odio tristique, pulvinar elit in, venenatis ipsum. Nulla facilisi. Vivamus vel porttitor elit, non posuere justo. In a vestibulum erat, id iaculis lacus. Ut commodo interdum elit, in faucibus sem sollicitudin in. Mauris blandit, purus a pulvinar malesuada, diam nulla accumsan urna, ut auctor tellus ante a neque. Mauris ac rhoncus nulla. Integer dictum mi sed iaculis tincidunt. Pellentesque a felis sit amet tellus faucibus semper.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span3">
+                    <h2 class="title-brown">Nos combis</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
+                </div>
+                <div class="span3">
+                    <h2 class="title-brown">Nos prestations</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
+                </div>
+                <div class="span3">
+                    <h2 class="title-brown">Les tarifs</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
+                </div>
+                <div class="span3">
+                    <h2 class="title-brown">Actualités</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php
+include 'footer.php';
+?>
+{% endblock %}

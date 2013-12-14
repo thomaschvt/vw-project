@@ -1,15 +1,79 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-        <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/css/bootstrap.css') }}" type="text/css" media="all" />
-        <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/css/bootstrap-responsive.css') }}" type="text/css" media="all" />
-    </head>
-    <body>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ asset('bundles/vintagewestfront/css/bootstrap.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/vintagewestfront/css/bootstrap-responsive.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/vintagewestfront/js/coin-slider/coin-slider-styles.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/vintagewestfront/css/ui-lightness/jquery-ui-1.10.3.custom.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/vintagewestfront/css/main.css') }}" type="text/css" media="all" />
+
+    <style>
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#">Vintage West</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="active"><a href="index.php">{{ 'Accueil'|trans }}</a></li>
+                    <li class="active"><a href="#">{{ 'Nos combis'|trans }}</a></li>
+                    <li class="active"><a href="#">{{ 'Nos prestations'|trans }}</a></li>
+                    <li class="active"><a href="actualite.php">{{ 'Actualités'|trans }}</a></li>
+                    <li class="active"><a href="contact.php">{{ 'Contact'|trans }}</a></li>
+
+                </ul>
+                <div class="">
+                    <a class="icn_res_sociaux"><img src="{{ asset('bundles/vintagewestfront/img/icones/fb.png') }}"></a>
+                    <a class="icn_res_sociaux"><img src="{{ asset('bundles/vintagewestfront/img/icones/google.png') }}"></a>
+                    <a class="icn_res_sociaux"><img src="{{ asset('bundles/vintagewestfront/img/icones/twitter.png') }}"></a>
+
+                    <a href="{{ path('trad', { 'lang': 'en'}) }}" class="icn-flags pull-right"><img src="{{ asset('bundles/vintagewestfront/img/flags/en.png') }}"></a>
+                    <a href="{{ path('trad', { 'lang': 'es'}) }}" class="icn-flags pull-right"><img src="{{ asset('bundles/vintagewestfront/img/flags/es.png') }}"></a>
+                    <a href="{{ path('trad', { 'lang': 'fr'}) }}" class="icn-flags pull-right"><img src="{{ asset('bundles/vintagewestfront/img/flags/fr.png') }}"></a>
+                </div>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+            <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            <script src="{{ asset('bundles/vintagewestfront/js/jquery-ui-1.10.3.custom.min.js') }}"></script>
+            <script src="{{ asset('bundles/vintagewestfront/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js') }}"></script>
+            <script src="{{ asset('bundles/vintagewestfront/js/coin-slider/coin-slider.js') }}"></script>
+            <script src="{{ asset('bundles/vintagewestfront/js/main.js') }}"></script>
+        {% endblock %}
     </body>
 </html>
