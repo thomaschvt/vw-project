@@ -37,4 +37,22 @@ equipement_edit:
 equipement_update:
     pattern:  /equipement/update/{id}
     defaults: { _controller: VintageWestAdminBundle:Equipement:update }
+imageillustration:
+    pattern:  /illustration
+    defaults: { _controller: VintageWestAdminBundle:ImageIllustration:index }
+imageillustration_create:
+    pattern:  /illustration/create
+    defaults: { _controller: VintageWestAdminBundle:ImageIllustration:create }
+imageillustration_show:
+    pattern:  /illustration/{id}
+    defaults: { _controller: VintageWestAdminBundle:ImageIllustration:show }
+imageillustration_delete:
+    pattern:  /illustration/delete/{id}
+    defaults: { _controller: VintageWestAdminBundle:ImageIllustration:delete }
+imageillustration_edit:
+    pattern:  /illustration/edit/{id}
+    defaults: { _controller: VintageWestAdminBundle:ImageIllustration:edit }
+imageillustration_update:
+    pattern:  /illustration/update/{id}
+    defaults: { _controller: VintageWestAdminBundle:ImageIllustration:update }
 

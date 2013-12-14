@@ -1,0 +1,55 @@
+{% extends '::admin_base.html.twig' %}
+
+{% block body -%}
+    <h1>ImageIllustration list</h1>
+
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Titlefr</th>
+                <th>Titleen</th>
+                <th>Titlees</th>
+                <th>Altfr</th>
+                <th>Alten</th>
+                <th>Altes</th>
+                <th>Url</th>
+                <th>Isincarrousel</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('imageillustration_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.titleFr }}</td>
+                <td>{{ entity.titleEn }}</td>
+                <td>{{ entity.titleEs }}</td>
+                <td>{{ entity.altFr }}</td>
+                <td>{{ entity.altEn }}</td>
+                <td>{{ entity.altEs }}</td>
+                <td>{{ entity.url }}</td>
+                <td>{{ entity.isInCarrousel }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('imageillustration_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('imageillustration_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <ul>
+        <li>
+            <a href="{{ path('imageillustration_create') }}">
+                Create a new entry
+            </a>
+        </li>
+    </ul>
+    {% endblock %}

@@ -118,8 +118,15 @@ class Car
      */
     private $equipments;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="ImageIllustration", inversedBy="cars")
+     * @ORM\JoinTable(name="cars_img_illustration")
+     */
+    private $imgIllustration;
+
     public function __construct() {
         $this->equipments = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->imgIllustration = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**
@@ -438,6 +445,10 @@ class Car
      */
     public function getEquipments(){
         return $this->equipments;
+    }
+
+    public function getImgIllustration(){
+        return $this->imgIllustration;
     }
 
     public function __toString(){

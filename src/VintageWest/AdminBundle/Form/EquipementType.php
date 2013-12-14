@@ -22,7 +22,7 @@ class EquipementType extends AbstractType
             ->add('descriptionEn')
             ->add('descriptionEs')
             ->add('imgUrl')
-            ->add('cars')
+            ->add('imgUrl')
         ;
     }
     

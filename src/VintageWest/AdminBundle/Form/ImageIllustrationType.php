@@ -6,7 +6,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
-class CarType extends AbstractType
+class ImageIllustrationType extends AbstractType
 {
         /**
      * @param FormBuilderInterface $builder
@@ -15,22 +15,14 @@ class CarType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('model')
-            ->add('year')
-            ->add('dimension')
-            ->add('engine')
-            ->add('carburation')
-            ->add('consumption')
-            ->add('speed')
-            ->add('sleeping')
-            ->add('seats')
-            ->add('imgUrl')
-            ->add('descriptionFr')
-            ->add('descriptionEn')
-            ->add('descriptionEs')
-            ->add('equipments')
-            ->add('imgIllustration')
-
+            ->add('titleFr')
+            ->add('titleEn')
+            ->add('titleEs')
+            ->add('altFr')
+            ->add('altEn')
+            ->add('altEs')
+            ->add('url')
+            ->add('isInCarrousel')
         ;
     }
     
@@ -40,7 +32,7 @@ class CarType extends AbstractType
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'VintageWest\AdminBundle\Entity\Car'
+            'data_class' => 'VintageWest\AdminBundle\Entity\ImageIllustration'
         ));
     }
 
@@ -49,6 +41,6 @@ class CarType extends AbstractType
      */
     public function getName()
     {
-        return 'vintagewest_adminbundle_car';
+        return 'vintagewest_adminbundle_imageillustration';
     }
 }
