@@ -1,0 +1,40 @@
+vintage_west_admin_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: VintageWestAdminBundle:Default:index }
+car:
+    pattern:  /car
+    defaults: { _controller: VintageWestAdminBundle:Car:index }
+car_create:
+    pattern:  /car/create
+    defaults: { _controller: VintageWestAdminBundle:Car:create }
+car_show:
+    pattern:  /car/{id}
+    defaults: { _controller: VintageWestAdminBundle:Car:show }
+car_delete:
+    pattern:  /car/delete/{id}
+    defaults: { _controller: VintageWestAdminBundle:Car:delete }
+car_edit:
+    pattern:  /car/edit/{id}
+    defaults: { _controller: VintageWestAdminBundle:Car:edit }
+car_update:
+    pattern:  /car/update/{id}
+    defaults: { _controller: VintageWestAdminBundle:Car:update }
+equipement:
+    pattern:  /equipement
+    defaults: { _controller: VintageWestAdminBundle:Equipement:index }
+equipement_create:
+    pattern:  /equipement/create
+    defaults: { _controller: VintageWestAdminBundle:Equipement:create }
+equipement_show:
+    pattern:  /equipement/{id}
+    defaults: { _controller: VintageWestAdminBundle:Equipement:show }
+equipement_delete:
+    pattern:  /equipement/delete/{id}
+    defaults: { _controller: VintageWestAdminBundle:Equipement:delete }
+equipement_edit:
+    pattern:  /equipement/edit/{id}
+    defaults: { _controller: VintageWestAdminBundle:Equipement:edit }
+equipement_update:
+    pattern:  /equipement/update/{id}
+    defaults: { _controller: VintageWestAdminBundle:Equipement:update }
+

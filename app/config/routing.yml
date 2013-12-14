@@ -1,0 +1,4 @@
+vintage_west_admin:
+    resource: "@VintageWestAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
