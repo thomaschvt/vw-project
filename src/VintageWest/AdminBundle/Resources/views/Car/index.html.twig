@@ -1,0 +1,65 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Car list</h1>
+
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Dimension</th>
+                <th>Engine</th>
+                <th>Carburation</th>
+                <th>Consumption</th>
+                <th>Speed</th>
+                <th>Sleeping</th>
+                <th>Seats</th>
+                <th>Imgurl</th>
+                <th>Descriptionfr</th>
+                <th>Descriptionen</th>
+                <th>Descriptiones</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('car_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.model }}</td>
+                <td>{{ entity.year }}</td>
+                <td>{{ entity.dimension }}</td>
+                <td>{{ entity.engine }}</td>
+                <td>{{ entity.carburation }}</td>
+                <td>{{ entity.consumption }}</td>
+                <td>{{ entity.speed }}</td>
+                <td>{{ entity.sleeping }}</td>
+                <td>{{ entity.seats }}</td>
+                <td>{{ entity.imgUrl }}</td>
+                <td>{{ entity.descriptionFr }}</td>
+                <td>{{ entity.descriptionEn }}</td>
+                <td>{{ entity.descriptionEs }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('car_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('car_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <ul>
+        <li>
+            <a href="{{ path('car_create') }}">
+                Create a new entry
+            </a>
+        </li>
+    </ul>
+    {% endblock %}

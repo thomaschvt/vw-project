@@ -1,0 +1,80 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Car</h1>
+
+    <table class="record_properties">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ entity.id }}</td>
+            </tr>
+            <tr>
+                <th>Model</th>
+                <td>{{ entity.model }}</td>
+            </tr>
+            <tr>
+                <th>Year</th>
+                <td>{{ entity.year }}</td>
+            </tr>
+            <tr>
+                <th>Dimension</th>
+                <td>{{ entity.dimension }}</td>
+            </tr>
+            <tr>
+                <th>Engine</th>
+                <td>{{ entity.engine }}</td>
+            </tr>
+            <tr>
+                <th>Carburation</th>
+                <td>{{ entity.carburation }}</td>
+            </tr>
+            <tr>
+                <th>Consumption</th>
+                <td>{{ entity.consumption }}</td>
+            </tr>
+            <tr>
+                <th>Speed</th>
+                <td>{{ entity.speed }}</td>
+            </tr>
+            <tr>
+                <th>Sleeping</th>
+                <td>{{ entity.sleeping }}</td>
+            </tr>
+            <tr>
+                <th>Seats</th>
+                <td>{{ entity.seats }}</td>
+            </tr>
+            <tr>
+                <th>Imgurl</th>
+                <td>{{ entity.imgUrl }}</td>
+            </tr>
+            <tr>
+                <th>Descriptionfr</th>
+                <td>{{ entity.descriptionFr }}</td>
+            </tr>
+            <tr>
+                <th>Descriptionen</th>
+                <td>{{ entity.descriptionEn }}</td>
+            </tr>
+            <tr>
+                <th>Descriptiones</th>
+                <td>{{ entity.descriptionEs }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('car') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('car_edit', { 'id': entity.id }) }}">
+            Edit
+        </a>
+    </li>
+    <li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}

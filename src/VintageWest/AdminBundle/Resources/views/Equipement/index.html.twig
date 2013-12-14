@@ -1,0 +1,53 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Equipement list</h1>
+
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Namefr</th>
+                <th>Nameen</th>
+                <th>Namees</th>
+                <th>Descriptionfr</th>
+                <th>Descriptionen</th>
+                <th>Descriptiones</th>
+                <th>Imgurl</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('equipement_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.nameFr }}</td>
+                <td>{{ entity.nameEn }}</td>
+                <td>{{ entity.nameEs }}</td>
+                <td>{{ entity.descriptionFr }}</td>
+                <td>{{ entity.descriptionEn }}</td>
+                <td>{{ entity.descriptionEs }}</td>
+                <td>{{ entity.imgUrl }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('equipement_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('equipement_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <ul>
+        <li>
+            <a href="{{ path('equipement_create') }}">
+                Create a new entry
+            </a>
+        </li>
+    </ul>
+    {% endblock %}
