@@ -1,0 +1,7 @@
+vintage_west_front_homepage:
+    pattern:  /accueil
+    defaults: { _controller: VintageWestFrontBundle:Accueil:index}
+trad:
+    pattern:  /accueil/{lang}
+    defaults: { _controller: VintageWestFrontBundle:Accueil:traduction}
+
