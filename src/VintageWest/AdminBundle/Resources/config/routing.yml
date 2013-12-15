@@ -1,58 +1,90 @@
-vintage_west_admin_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: VintageWestAdminBundle:Default:index }
 car:
-    pattern:  /car
+    pattern:  /admin/car
     defaults: { _controller: VintageWestAdminBundle:Car:index }
 car_create:
-    pattern:  /car/create
+    pattern:  /admin/car/create
     defaults: { _controller: VintageWestAdminBundle:Car:create }
 car_show:
-    pattern:  /car/{id}
+    pattern:  /admin/car/{id}
     defaults: { _controller: VintageWestAdminBundle:Car:show }
 car_delete:
-    pattern:  /car/delete/{id}
+    pattern:  /admin/car/delete/{id}
     defaults: { _controller: VintageWestAdminBundle:Car:delete }
 car_edit:
-    pattern:  /car/edit/{id}
+    pattern:  /admin/car/edit/{id}
     defaults: { _controller: VintageWestAdminBundle:Car:edit }
 car_update:
-    pattern:  /car/update/{id}
+    pattern:  /admin/car/update/{id}
     defaults: { _controller: VintageWestAdminBundle:Car:update }
 equipement:
-    pattern:  /equipement
+    pattern:  /admin/equipement
     defaults: { _controller: VintageWestAdminBundle:Equipement:index }
 equipement_create:
-    pattern:  /equipement/create
+    pattern:  /admin/equipement/create
     defaults: { _controller: VintageWestAdminBundle:Equipement:create }
 equipement_show:
-    pattern:  /equipement/{id}
+    pattern:  /admin/equipement/{id}
     defaults: { _controller: VintageWestAdminBundle:Equipement:show }
 equipement_delete:
-    pattern:  /equipement/delete/{id}
+    pattern:  /admin/equipement/delete/{id}
     defaults: { _controller: VintageWestAdminBundle:Equipement:delete }
 equipement_edit:
-    pattern:  /equipement/edit/{id}
+    pattern:  /admin/equipement/edit/{id}
     defaults: { _controller: VintageWestAdminBundle:Equipement:edit }
 equipement_update:
-    pattern:  /equipement/update/{id}
+    pattern:  /admin/equipement/update/{id}
     defaults: { _controller: VintageWestAdminBundle:Equipement:update }
 imageillustration:
-    pattern:  /illustration
+    pattern:  /admin/illustration
     defaults: { _controller: VintageWestAdminBundle:ImageIllustration:index }
 imageillustration_create:
-    pattern:  /illustration/create
+    pattern:  /admin/illustration/create
     defaults: { _controller: VintageWestAdminBundle:ImageIllustration:create }
 imageillustration_show:
-    pattern:  /illustration/{id}
+    pattern:  /admin/illustration/{id}
     defaults: { _controller: VintageWestAdminBundle:ImageIllustration:show }
 imageillustration_delete:
-    pattern:  /illustration/delete/{id}
+    pattern:  /admin/illustration/delete/{id}
     defaults: { _controller: VintageWestAdminBundle:ImageIllustration:delete }
 imageillustration_edit:
-    pattern:  /illustration/edit/{id}
+    pattern:  /admin/illustration/edit/{id}
     defaults: { _controller: VintageWestAdminBundle:ImageIllustration:edit }
 imageillustration_update:
-    pattern:  /illustration/update/{id}
+    pattern:  /admin/illustration/update/{id}
     defaults: { _controller: VintageWestAdminBundle:ImageIllustration:update }
-
+language:
+    pattern:  /admin/language
+    defaults: { _controller: VintageWestAdminBundle:Language:index }
+language_create:
+    pattern:  /admin/language/create
+    defaults: { _controller: VintageWestAdminBundle:Language:create }
+language_show:
+    pattern:  /admin/language/{id}
+    defaults: { _controller: VintageWestAdminBundle:Language:show }
+language_delete:
+    pattern:  /admin/language/delete/{id}
+    defaults: { _controller: VintageWestAdminBundle:Language:delete }
+language_edit:
+    pattern:  /admin/language/edit/{id}
+    defaults: { _controller: VintageWestAdminBundle:Language:edit }
+language_update:
+    pattern:  /admin/language/update/{id}
+    defaults: { _controller: VintageWestAdminBundle:Language:update }
+news:
+    pattern:  /admin/news
+    defaults: { _controller: VintageWestAdminBundle:News:index }
+news_create:
+    pattern:  /admin/news/create
+    defaults: { _controller: VintageWestAdminBundle:News:create }
+news_show:
+    pattern:  /admin/news/{id}
+    defaults: { _controller: VintageWestAdminBundle:News:show }
+news_delete:
+    pattern:  /admin/news/delete/{id}
+    defaults: { _controller: VintageWestAdminBundle:News:delete }
+news_edit:
+    pattern:  /admin/news/edit/{id}
+    defaults: { _controller: VintageWestAdminBundle:News:edit }
+news_update:
+    pattern:  /admin/news/update/{id}
+    defaults: { _controller: VintageWestAdminBundle:News:update }
