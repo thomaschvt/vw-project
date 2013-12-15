@@ -50,6 +50,27 @@ class ImageIllustrationController extends Controller
 
         if ($form->isValid()) {
             $em = $this->getDoctrine()->getManager();
+
+            //upload d'img
+            //on définit le dossier ou envoyer les images
+            $dir = "img/illustration";
+
+            //on recupère le nom original du fichier
+            $nomBase = $form['url']->getData()->getClientOriginalName();
+            //on découpe le nom du fichier pr recup l'extension
+            $extension=strrchr($nomBase,'.');
+            $extension=substr($extension,1) ;
+            //on génère le nouveau nom du fichier
+            $randNom = rand(0,1000000);
+            $dateNom = time();
+            $NewNom = 'img_'.$randNom.$dateNom.'.'.$extension;
+            //chemin a stocker pour récupère l'image
+            $pathImg = 'img/illustration/'.$NewNom;
+            //upload de l'image avec son nouveau nom
+            $form['url']->getData()->move($dir, $NewNom);
+
+            $entity->setUrl($NewNom);
+
             $em->persist($entity);
             $em->flush();
 

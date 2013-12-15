@@ -9,13 +9,18 @@
 namespace VintageWest\FrontBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use VintageWest\AdminBundle\Entity\News;
+use VintageWest\AdminBundle\Entity\ImageIllustration;
 
 class AccueilController extends Controller
 {
     public function indexAction()
     {
+        $em = $this->getDoctrine()->getManager();
+        $entitiesNews = $em->getRepository('VintageWestAdminBundle:News')->findByLang(2);
+        $entitiesIllustration = $em->getRepository('VintageWestAdminBundle:ImageIllustration')->findByisInCarrousel(true);
 
-        return $this->render('VintageWestFrontBundle:Accueil:accueil.html.twig');
+        return $this->render('VintageWestFrontBundle:Accueil:accueil.html.twig',array('newsPerLang'=>$entitiesNews, 'imgsCarrousel'=>$entitiesIllustration));
     }
 
    public function traductionAction($lang)
@@ -26,7 +31,7 @@ class AccueilController extends Controller
        $request = $this->getRequest();
        $request->setLocale($lang);
 
-       return $this->render('VintageWestFrontBundle:Accueil:accueil.html.twig');
+      return $this->indexAction();
    }
 
 }

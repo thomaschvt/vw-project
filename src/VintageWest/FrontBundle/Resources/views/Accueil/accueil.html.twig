@@ -10,30 +10,26 @@ include 'header.php';
             <div class="row">
                 <div id="slider" class="span8">
                     <div id='coin-slider'>
-                        <a href="img01_url" target="_blank">
-                            <img src='{{ asset('bundles/vintagewestfront/img/slide1.png') }}' >
+                        {% for img in imgsCarrousel %}
+                            <a href="{{ img.titleFr }}" target="_blank">
+                                <img src='{{ asset('img/illustration/'~img.url) }}' >
                     <span>
                         Description for img01
                     </span>
-                        </a>
+                            </a>
+                        {% endfor %}
+
                     </div>
 
                 </div>
                 <div id="news" class="span4">
                     <h2 class="title-brown">News</h2>
-                    <div class="mini-news">
-                        <h4  class="">Test</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra fringilla ultr....</p>
-                    </div>
-                    <div class="mini-news">
-                        <h4  class="">Test</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra fringilla ultr....</p>
-                    </div>
-                    <div class="mini-news">
-                        <h4  class="">Test</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra fringilla ultr....</p>
-                    </div>
-
+                    {% for news in newsPerLang %}
+                        <div class="mini-news">
+                            <h4  class="">{{ news.title }}</h4>
+                            <p>{{ news.content }}</p>
+                        </div>
+                    {% endfor %}
                 </div>
             </div>
 

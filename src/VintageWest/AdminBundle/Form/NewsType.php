@@ -15,11 +15,11 @@ class NewsType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('title')
-            ->add('author')
-            ->add('imgUrl')
-            ->add('content')
-            ->add('lang')
+            ->add('title','text',array('label'=>'Titre de la news'))
+            ->add('author','text',array('label'=>'Auteur'))
+            ->add('imgUrl','file',array('label'=>'Visuel','data_class'=>null))
+            ->add('content','textarea',array('label'=>'Contenu'))
+            ->add('lang',null,array('label'=>"Langue de l'article"))
         ;
     }
     

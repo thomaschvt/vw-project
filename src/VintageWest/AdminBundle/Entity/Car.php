@@ -94,29 +94,10 @@ class Car
     /**
      * @var string
      *
-     * @ORM\Column(name="description_fr", type="text")
+     * @ORM\Column(name="description", type="text")
      */
-    private $descriptionFr;
+    private $description;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="description_en", type="text")
-     */
-    private $descriptionEn;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="description_es", type="text")
-     */
-    private $descriptionEs;
-
-    /**
-     * @ORM\ManyToMany(targetEntity="Equipement", inversedBy="cars")
-     * @ORM\JoinTable(name="cars_equipements")
-     */
-    private $equipments;
 
     /**
      * @ORM\ManyToMany(targetEntity="ImageIllustration", inversedBy="cars")
@@ -372,12 +353,12 @@ class Car
     /**
      * Set descriptionFr
      *
-     * @param string $descriptionFr
+     * @param string $description
      * @return Car
      */
-    public function setDescriptionFr($descriptionFr)
+    public function setDescriptionFr($description)
     {
-        $this->descriptionFr = $descriptionFr;
+        $this->descriptionFr = $description;
 
         return $this;
     }

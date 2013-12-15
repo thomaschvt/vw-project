@@ -50,10 +50,30 @@ class CarController extends Controller
 
         if ($form->isValid()) {
             $em = $this->getDoctrine()->getManager();
+
+            //upload d'img
+            //on définit le dossier ou envoyer les images
+            $dir = "img/combis";
+
+            //on recupère le nom original du fichier
+            $nomBase = $form['imgUrl']->getData()->getClientOriginalName();
+            //on découpe le nom du fichier pr recup l'extension
+            $extension=strrchr($nomBase,'.');
+            $extension=substr($extension,1) ;
+            //on génère le nouveau nom du fichier
+            $randNom = rand(0,1000000);
+            $dateNom = time();
+            $NewNom = 'img_'.$randNom.$dateNom.'.'.$extension;
+            //chemin a stocker pour récupère l'image
+            $pathImg = 'img/combis/'.$NewNom;
+            //upload de l'image avec son nouveau nom
+            $form['imgUrl']->getData()->move($dir, $NewNom);
+
+            $entity->setImgUrl($NewNom);
             $em->persist($entity);
             $em->flush();
 
-            return $this->redirect($this->generateUrl('car_show', array('id' => $entity->getId())));
+            //return $this->redirect($this->generateUrl('car_show', array('id' => $entity->getId())));
         }
 
         return array(

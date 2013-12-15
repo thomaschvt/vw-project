@@ -21,7 +21,7 @@ class ImageIllustrationType extends AbstractType
             ->add('altFr')
             ->add('altEn')
             ->add('altEs')
-            ->add('url')
+            ->add('url','file',array('label'=>'Image','data_class'=>null))
             ->add('isInCarrousel')
         ;
     }

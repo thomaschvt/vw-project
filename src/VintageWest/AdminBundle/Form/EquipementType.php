@@ -15,14 +15,9 @@ class EquipementType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('nameFr')
-            ->add('nameEn')
-            ->add('nameEs')
-            ->add('descriptionFr')
-            ->add('descriptionEn')
-            ->add('descriptionEs')
-            ->add('imgUrl')
-            ->add('imgUrl')
+            ->add('nameFr','text',array('label'=>'Nom de l\'équipement'))
+            ->add('descriptionFr','textarea',array('label'=>'Description'))
+            ->add('imgUrl','file',array('label'=>'Visuel de l\'équipement','data_class'=>null))
         ;
     }
     
