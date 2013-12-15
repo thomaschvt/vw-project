@@ -10,4 +10,8 @@ class DefaultController extends Controller
     {
         return $this->render('VintageWestFrontBundle:Default:index.html.twig');
     }
+    public function prestationAction()
+    {
+        return $this->render('VintageWestFrontBundle:Prestation:prestation.html.twig');
+    }
 }

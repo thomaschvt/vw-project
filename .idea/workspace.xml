@@ -2,6 +2,236 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a222c3ac-ea63-46aa-bdcb-56e905b1ae82" name="Default" comment="Recap projet 15/12/2013 -- 17h30">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Prestation/prestation.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/animated-overlay.gif" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/bg.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/flags/en.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/flags/en.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/flags/es.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/flags/es.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/icones/fb.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/icones/fb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/flags/fr.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/flags/fr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/glyphicons-halflings-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/glyphicons-halflings.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/icones/google.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/icones/google.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/maquette.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/maquette.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/slide1.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/slide1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/slide2.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/slide2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/icones/twitter.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/img/icones/twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-icons_222222_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/images/ui-icons_ffffff_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="$PROJECT_DIR$/app/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.htaccess" afterPath="$PROJECT_DIR$/src/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Controller/AccueilController.php" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Controller/AccueilController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppCache.php" afterPath="$PROJECT_DIR$/app/AppCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Car.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Car.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/CarController.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/CarController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/CarControllerTest.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/CarControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository/CarRepository.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository/CarRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/CarType.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/CarType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Equipement.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Equipement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/EquipementController.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/EquipementController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/EquipementControllerTest.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/EquipementControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository/EquipementRepository.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository/EquipementRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/EquipementType.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/EquipementType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/ImageIllustration.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/ImageIllustration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/ImageIllustrationController.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/ImageIllustrationController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/ImageIllustrationControllerTest.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/ImageIllustrationControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository/ImageIllustrationRepository.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository/ImageIllustrationRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/ImageIllustrationType.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/ImageIllustrationType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Language.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Language.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/LanguageController.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/LanguageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/LanguageControllerTest.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/LanguageControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository/LanguageRepository.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository/LanguageRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/LanguageType.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/LanguageType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/News.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/News.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/NewsController.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Controller/NewsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/NewsControllerTest.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Tests/Controller/NewsControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository/NewsRepository.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository/NewsRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/NewsType.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/NewsType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/app/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UPGRADE-2.2.md" afterPath="$PROJECT_DIR$/UPGRADE-2.2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UPGRADE-2.3.md" afterPath="$PROJECT_DIR$/UPGRADE-2.3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UPGRADE-2.4.md" afterPath="$PROJECT_DIR$/UPGRADE-2.4.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UPGRADE.md" afterPath="$PROJECT_DIR$/UPGRADE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/VintageWestAdminBundle.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/VintageWestAdminBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/DependencyInjection/VintageWestAdminExtension.php" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/DependencyInjection/VintageWestAdminExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/VintageWestFrontBundle.php" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/VintageWestFrontBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/DependencyInjection/VintageWestFrontExtension.php" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/DependencyInjection/VintageWestFrontExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_spinning.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_spinning.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Accueil/accueil.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Accueil/accueil.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/admin_base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/admin_base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/autoload.php" afterPath="$PROJECT_DIR$/app/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/bootstrap-responsive.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/vendor/bootstrap.js" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/vendor/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/vendor/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/vendor/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/chart-data-flot.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/chart-data-flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/morris/chart-data-morris.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/morris/chart-data-morris.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/check.php" afterPath="$PROJECT_DIR$/app/check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/coin-slider/coin-slider-styles.css" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/coin-slider/coin-slider-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/coin-slider/coin-slider.js" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/coin-slider/coin-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/coin-slider/coin-slider.min.js" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/coin-slider/coin-slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_test.yml" afterPath="$PROJECT_DIR$/app/config/config_test.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/edit.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/edit.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/ImageIllustration/edit.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/ImageIllustration/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Language/edit.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Language/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/News/edit.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/News/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/excanvas.min.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/excanvas.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/index.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/index.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/ImageIllustration/index.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/ImageIllustration/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Language/index.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Language/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/News/index.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/News/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/doc/index.rst" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/doc/index.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/doc/index.rst" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/doc/index.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/jquery-1.10.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/jquery-1.9.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/jquery-ui-1.10.3.custom.css" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/jquery-ui-1.10.3.custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/jquery-ui-1.10.3.custom.js" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/jquery-ui-1.10.3.custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/jquery-ui-1.10.3.custom.min.css" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/ui-lightness/jquery-ui-1.10.3.custom.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/jquery-ui-1.10.3.custom.min.js" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/jquery-ui-1.10.3.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/jquery.flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/jquery.flot.pie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/jquery.flot.resize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/jquery.flot.tooltip.min.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/flot/jquery.flot.tooltip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/tablesorter/jquery.tablesorter.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/tablesorter/jquery.tablesorter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/larger.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/larger.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/main.css" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/main.js" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/translations/messages.en.yml" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/translations/messages.en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/translations/messages.es.yml" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/translations/messages.es.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/translations/messages.fr.xlf" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/translations/messages.fr.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/translations/messages.fr.yml" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/translations/messages.fr.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/new.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/new.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/ImageIllustration/new.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/ImageIllustration/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Language/new.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Language/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/News/new.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/News/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/phpunit.xml.dist" afterPath="$PROJECT_DIR$/app/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/rotated-flipped.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/rotated-flipped.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/sb-admin.css" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/sb-admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/script.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/show.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/show.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/ImageIllustration/show.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/ImageIllustration/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Language/show.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Language/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/News/show.html.twig" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/News/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/spinning.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/spinning.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/style.css" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/tablesorter/tables.js" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/tablesorter/tables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/font-awesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/public/css/font-awesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vw-project.iml" afterPath="$PROJECT_DIR$/.idea/vw-project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vw-project.iws" />
@@ -25,93 +255,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Car.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Car.php">
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="355" column="18" selection-start="5729" selection-end="5729" vertical-scroll-proportion="-4.5555553" vertical-offset="6144" max-vertical-offset="7020">
+            <state line="9" column="71" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarType.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/CarType.php">
+      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1179" selection-end="1179" vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="990">
+            <state line="52" column="91" selection-start="2837" selection-end="2837" vertical-scroll-proportion="-14.291667" vertical-offset="437" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_base.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/admin_base.html.twig">
+      <file leaf-file-name="prestation.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Prestation/prestation.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="65" selection-start="1432" selection-end="1432" vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="972">
+            <state line="21" column="2" selection-start="350" selection-end="350" vertical-scroll-proportion="0.34577388" vertical-offset="0" max-vertical-offset="911">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Equipement.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Equipement.php">
+      <file leaf-file-name="accueil.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Accueil/accueil.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="29" selection-start="480" selection-end="480" vertical-scroll-proportion="-6.3333335" vertical-offset="126" max-vertical-offset="2484">
+            <state line="91" column="0" selection-start="5965" selection-end="6014" vertical-scroll-proportion="-31.791666" vertical-offset="602" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EquipementType.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/EquipementType.php">
+      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VintageWest/FrontBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="23" selection-start="463" selection-end="463" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/show.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="49" selection-start="452" selection-end="452" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="828">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sb-admin.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/sb-admin.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2970">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-1.10.2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/jquery-1.10.2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.tablesorter.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/tablesorter/jquery.tablesorter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="53" selection-start="301" selection-end="301" vertical-scroll-proportion="0.18141097" vertical-offset="0" max-vertical-offset="18648">
+            <state line="10" column="79" selection-start="277" selection-end="277" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -140,11 +323,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/VintageWest/FrontBundle/Controller/AccueilController.php" />
-        <option value="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/ImageIllustrationType.php" />
-        <option value="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Accueil/accueil.html.twig" />
-        <option value="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/NewsType.php" />
-        <option value="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/show.html.twig" />
         <option value="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/index.html.twig" />
         <option value="$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Car.php" />
         <option value="$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/CarType.php" />
@@ -156,6 +334,11 @@
         <option value="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/sb-admin.css" />
         <option value="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/jquery-1.10.2.js" />
         <option value="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/tablesorter/jquery.tablesorter.js" />
+        <option value="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Accueil/Prestation.twig" />
+        <option value="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/VintageWest/FrontBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Prestation/prestation.html.twig" />
       </list>
     </option>
   </component>
@@ -234,6 +417,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="illustration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="combis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -269,6 +518,224 @@
               <option name="myItemId" value="VintageWest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VintageWest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prestation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VintageWest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VintageWest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Accueil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VintageWest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VintageWest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VintageWest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VintageWest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -344,189 +811,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VintageWest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tablesorter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VintageWest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morris" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VintageWest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VintageWest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VintageWest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,8 +857,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../InfinityGames" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -582,6 +871,7 @@
       <recent name="$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Prestation" />
       <recent name="$PROJECT_DIR$/src/VintageWest/AdminBundle/Repository" />
     </key>
   </component>
@@ -672,29 +962,50 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="1084" extended-state="6" />
+    <frame x="64" y="-4" width="1857" height="1084" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959569" sideWeight="0.67153287" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959569" sideWeight="0.67153287" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout>
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -718,122 +1029,98 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/LanguageType.php">
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/sb-admin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="80" selection-start="585" selection-end="585" vertical-scroll-proportion="0.31893688" vertical-offset="0" max-vertical-offset="903">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2970" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/ImageIllustrationType.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="7" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.7574751" vertical-offset="0" max-vertical-offset="936">
-          <folding>
-            <element signature="e#48#88#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="9" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="0.14438502" vertical-offset="0" max-vertical-offset="935" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="17" selection-start="1502" selection-end="1502" vertical-scroll-proportion="-24.666666" vertical-offset="306" max-vertical-offset="1404">
-          <folding />
-        </state>
+        <state line="17" column="49" selection-start="452" selection-end="452" vertical-scroll-proportion="0.27991217" vertical-offset="0" max-vertical-offset="911" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/new.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/EquipementType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
+        <state line="17" column="23" selection-start="463" selection-end="463" vertical-scroll-proportion="0.24698134" vertical-offset="0" max-vertical-offset="675" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Equipement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="41" selection-start="1174" selection-end="1174" vertical-scroll-proportion="-22.666666" vertical-offset="90" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Car/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-          <folding>
-            <marker date="1387031945863" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387031945863" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387031945863" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Car.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="355" column="18" selection-start="5729" selection-end="5729" vertical-scroll-proportion="-4.5555553" vertical-offset="6144" max-vertical-offset="7020">
-          <folding />
-        </state>
+        <state line="26" column="29" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2070" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/CarType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1179" selection-end="1179" vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="990">
+        <state line="28" column="0" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.42810097" vertical-offset="0" max-vertical-offset="911" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="355" column="18" selection-start="5729" selection-end="5729" vertical-scroll-proportion="0.4237102" vertical-offset="4939" max-vertical-offset="5850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/FrontBundle/Controller/AccueilController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="34" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.42810097" vertical-offset="0" max-vertical-offset="911" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="71" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/FrontBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="79" selection-start="277" selection-end="277" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="345">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/admin_base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="65" selection-start="1432" selection-end="1432" vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="972">
+        <state line="25" column="71" selection-start="1322" selection-end="1347" vertical-scroll-proportion="0.41163558" vertical-offset="0" max-vertical-offset="911">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Entity/Equipement.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="480" selection-end="480" vertical-scroll-proportion="-6.3333335" vertical-offset="126" max-vertical-offset="2484">
+        <state line="52" column="91" selection-start="2837" selection-end="2837" vertical-scroll-proportion="-14.291667" vertical-offset="437" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Form/EquipementType.php">
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Accueil/accueil.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="463" selection-end="463" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="810">
+        <state line="91" column="0" selection-start="5965" selection-end="6014" vertical-scroll-proportion="-31.791666" vertical-offset="602" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/views/Equipement/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/VintageWest/FrontBundle/Resources/views/Prestation/prestation.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="452" selection-end="452" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="828">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/css/sb-admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2970">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/jquery-1.10.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VintageWest/AdminBundle/Resources/public/js/tablesorter/jquery.tablesorter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="301" selection-end="301" vertical-scroll-proportion="0.18141097" vertical-offset="0" max-vertical-offset="18648">
+        <state line="21" column="2" selection-start="350" selection-end="350" vertical-scroll-proportion="0.34577388" vertical-offset="0" max-vertical-offset="911">
           <folding />
         </state>
       </provider>

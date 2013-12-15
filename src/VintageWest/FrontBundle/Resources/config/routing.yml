@@ -5,3 +5,6 @@ trad:
     pattern:  /accueil/{lang}
     defaults: { _controller: VintageWestFrontBundle:Accueil:traduction}
 
+prestation:
+    pattern:  /prestation
+    defaults: { _controller: VintageWestFrontBundle:Default:prestation}
