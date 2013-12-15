@@ -24,44 +24,16 @@ class Equipement
     /**
      * @var string
      *
-     * @ORM\Column(name="name_fr", type="string", length=255)
+     * @ORM\Column(name="name", type="string", length=255)
      */
-    private $nameFr;
+    private $name;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="name_en", type="string", length=255)
+     * @ORM\Column(name="description", type="text")
      */
-    private $nameEn;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="name_es", type="string", length=255)
-     */
-    private $nameEs;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="description_fr", type="text")
-     */
-    private $descriptionFr;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="description_en", type="text")
-     */
-    private $descriptionEn;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="description_es", type="text")
-     */
-    private $descriptionEs;
+    private $description;
 
     /**
      * @var string
@@ -69,11 +41,6 @@ class Equipement
      * @ORM\Column(name="img_url", type="string", length=255)
      */
     private $imgUrl;
-
-    /**
-     * @ORM\ManyToMany(targetEntity="Car", mappedBy="equipements")
-     */
-    private $cars;
 
     public function __construct() {
         $this->cars = new \Doctrine\Common\Collections\ArrayCollection();
@@ -90,141 +57,49 @@ class Equipement
     }
 
     /**
-     * Set nameFr
+     * Set name
      *
-     * @param string $nameFr
+     * @param string $name
      * @return Equipement
      */
-    public function setNameFr($nameFr)
+    public function setName($name)
     {
-        $this->nameFr = $nameFr;
+        $this->name = $name;
 
         return $this;
     }
 
     /**
-     * Get nameFr
+     * Get name
      *
      * @return string 
      */
-    public function getNameFr()
+    public function getName()
     {
-        return $this->nameFr;
+        return $this->name;
     }
 
     /**
-     * Set nameEn
+     * Set description
      *
-     * @param string $nameEn
+     * @param string $description
      * @return Equipement
      */
-    public function setNameEn($nameEn)
+    public function setDescription($description)
     {
-        $this->nameEn = $nameEn;
+        $this->description = $description;
 
         return $this;
     }
 
     /**
-     * Get nameEn
+     * Get description
      *
      * @return string 
      */
-    public function getNameEn()
+    public function getDescription()
     {
-        return $this->nameEn;
-    }
-
-    /**
-     * Set nameEs
-     *
-     * @param string $nameEs
-     * @return Equipement
-     */
-    public function setNameEs($nameEs)
-    {
-        $this->nameEs = $nameEs;
-
-        return $this;
-    }
-
-    /**
-     * Get nameEs
-     *
-     * @return string 
-     */
-    public function getNameEs()
-    {
-        return $this->nameEs;
-    }
-
-    /**
-     * Set descriptionFr
-     *
-     * @param string $descriptionFr
-     * @return Equipement
-     */
-    public function setDescriptionFr($descriptionFr)
-    {
-        $this->descriptionFr = $descriptionFr;
-
-        return $this;
-    }
-
-    /**
-     * Get descriptionFr
-     *
-     * @return string 
-     */
-    public function getDescriptionFr()
-    {
-        return $this->descriptionFr;
-    }
-
-    /**
-     * Set descriptionEn
-     *
-     * @param string $descriptionEn
-     * @return Equipement
-     */
-    public function setDescriptionEn($descriptionEn)
-    {
-        $this->descriptionEn = $descriptionEn;
-
-        return $this;
-    }
-
-    /**
-     * Get descriptionEn
-     *
-     * @return string 
-     */
-    public function getDescriptionEn()
-    {
-        return $this->descriptionEn;
-    }
-
-    /**
-     * Set descriptionEs
-     *
-     * @param string $descriptionEs
-     * @return Equipement
-     */
-    public function setDescriptionEs($descriptionEs)
-    {
-        $this->descriptionEs = $descriptionEs;
-
-        return $this;
-    }
-
-    /**
-     * Get descriptionEs
-     *
-     * @return string 
-     */
-    public function getDescriptionEs()
-    {
-        return $this->descriptionEs;
+        return $this->description;
     }
 
     /**
@@ -250,16 +125,8 @@ class Equipement
         return $this->imgUrl;
     }
 
-    /**
-     * Get Cars with equipement
-     *
-     * @return array
-     */
-    public function getCars(){
-        return $this->cars;
-    }
 
     public function __toString(){
-        return $this->nameFr;
+        return $this->name;
     }
 }
