@@ -25,8 +25,7 @@ class CarType extends AbstractType
             ->add('sleeping','integer', array('label' => 'Couchages'))
             ->add('seats','integer', array('label' => 'Place'))
             ->add('imgUrl','file', array('label' => 'Photo du combi', 'data_class'=>null))
-            ->add('descriptionFr',null, array('label' => 'Description'))
-            ->add('equipments','entity', array('label' => 'Equipements supplémentaires','class' => 'VintageWest\AdminBundle\Entity\Equipement','multiple' => true))
+            ->add('description',null, array('label' => 'Description'))
             ->add('imgIllustration','entity', array('label' => 'Photos supplémentaires du combi','class' => 'VintageWest\AdminBundle\Entity\ImageIllustration','multiple' => true))
 
         ;

@@ -17,9 +17,7 @@
             <th>Sleeping</th>
             <th>Seats</th>
             <th>Imgurl</th>
-            <th>Descriptionfr</th>
-            <th>Descriptionen</th>
-            <th>Descriptiones</th>
+            <th>Description</th>
             <th>Voir</th>
             <th>Editer</th>
             <th>Supprimer</th>
@@ -39,9 +37,7 @@
                 <td>{{ entity.sleeping }}</td>
                 <td>{{ entity.seats }}</td>
                 <td>{{ entity.imgUrl }}</td>
-                <td>{{ entity.descriptionFr }}</td>
-                <td>{{ entity.descriptionEn }}</td>
-                <td>{{ entity.descriptionEs }}</td>
+                <td>{{ entity.description }}</td>
                 <td><a href="{{ path('car_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
                 <td><a href="{{ path('car_edit', { 'id': entity.id }) }}">edit</a></td>
                 <td><a href="{{ path('car_delete', { 'id': entity.id }) }}">{{ entity.id }}</a></td>

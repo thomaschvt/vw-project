@@ -106,7 +106,6 @@ class Car
     private $imgIllustration;
 
     public function __construct() {
-        $this->equipments = new \Doctrine\Common\Collections\ArrayCollection();
         $this->imgIllustration = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
@@ -351,14 +350,14 @@ class Car
     }
 
     /**
-     * Set descriptionFr
+     * Set description
      *
      * @param string $description
      * @return Car
      */
-    public function setDescriptionFr($description)
+    public function setDescription($description)
     {
-        $this->descriptionFr = $description;
+        $this->description = $description;
 
         return $this;
     }
@@ -368,65 +367,12 @@ class Car
      *
      * @return string 
      */
-    public function getDescriptionFr()
+    public function getDescription()
     {
-        return $this->descriptionFr;
+        return $this->description;
     }
 
-    /**
-     * Set descriptionEn
-     *
-     * @param string $descriptionEn
-     * @return Car
-     */
-    public function setDescriptionEn($descriptionEn)
-    {
-        $this->descriptionEn = $descriptionEn;
 
-        return $this;
-    }
-
-    /**
-     * Get descriptionEn
-     *
-     * @return string 
-     */
-    public function getDescriptionEn()
-    {
-        return $this->descriptionEn;
-    }
-
-    /**
-     * Set descriptionEs
-     *
-     * @param string $descriptionEs
-     * @return Car
-     */
-    public function setDescriptionEs($descriptionEs)
-    {
-        $this->descriptionEs = $descriptionEs;
-
-        return $this;
-    }
-
-    /**
-     * Get descriptionEs
-     *
-     * @return string 
-     */
-    public function getDescriptionEs()
-    {
-        return $this->descriptionEs;
-    }
-
-    /**
-     * Get equipements
-     *
-     * @return array
-     */
-    public function getEquipments(){
-        return $this->equipments;
-    }
 
     public function getImgIllustration(){
         return $this->imgIllustration;
