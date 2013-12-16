@@ -88,3 +88,21 @@ news_edit:
 news_update:
     pattern:  /admin/news/update/{id}
     defaults: { _controller: VintageWestAdminBundle:News:update }
+prestations:
+    pattern:  /admin/prestations
+    defaults: { _controller: VintageWestAdminBundle:Prestation:index }
+prestations_create:
+    pattern:  /admin/prestations/create
+    defaults: { _controller: VintageWestAdminBundle:Prestation:create }
+prestations_show:
+    pattern:  /admin/prestations/{id}
+    defaults: { _controller: VintageWestAdminBundle:Prestation:show }
+prestations_delete:
+    pattern:  /admin/prestations/delete/{id}
+    defaults: { _controller: VintageWestAdminBundle:Prestation:delete }
+prestations_edit:
+    pattern:  /admin/prestations/edit/{id}
+    defaults: { _controller: VintageWestAdminBundle:Prestation:edit }
+prestations_update:
+    pattern:  /admin/prestations/update/{id}
+    defaults: { _controller: VintageWestAdminBundle:Prestation:update }
