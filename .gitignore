@@ -13,3 +13,6 @@ web/img/*
 # Configuration files
 app/config/parameters.ini
 app/config/parameters.yml
+
+#config interne
+.idea/*
