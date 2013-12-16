@@ -15,8 +15,11 @@ class LanguageType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('name','text',array('label','Nom de la langue'))
-            ->add('shorten','text',array('label'=>'Abréviation (max 3 caractères)'))
+            ->add('name','text',array('label'=>'Nom de l\'équipement'))
+            ->add('shorten','text',array('label'=>'Description'))
+            ->add('imgUrl','file', array('label' => 'Drapeau', 'data_class'=>null))
+
+
         ;
     }
     
