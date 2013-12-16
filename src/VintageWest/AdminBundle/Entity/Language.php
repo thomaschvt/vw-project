@@ -36,9 +36,26 @@ class Language
     private $shorten;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="img_url", type="string", length=255)
+     */
+    private $imgUrl;
+
+    /**
      * @ORM\OneToMany(targetEntity="News", mappedBy="desk")
      */
     protected $news;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Car", mappedBy="cars")
+     */
+    protected $cars;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Equipement", mappedBy="equipements")
+     */
+    protected $equipement;
 
     /**
      * Get id
@@ -99,4 +116,28 @@ class Language
     public function __toString(){
         return $this->name;
     }
+
+    /**
+     * Set imgUrl
+     *
+     * @param string $imgUrl
+     * @return Car
+     */
+    public function setImgUrl($imgUrl)
+    {
+        $this->imgUrl = $imgUrl;
+
+        return $this;
+    }
+
+    /**
+     * Get imgUrl
+     *
+     * @return string
+     */
+    public function getImgUrl()
+    {
+        return $this->imgUrl;
+    }
+
 }

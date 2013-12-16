@@ -15,5 +15,9 @@ web/img/*
 app/config/parameters.ini
 app/config/parameters.yml
 
+<<<<<<< HEAD
+.gitignore
+=======
 #config interne
 .idea/*
+>>>>>>> f0e7a8005b83faa5cc429d1b429497e96cc248ae

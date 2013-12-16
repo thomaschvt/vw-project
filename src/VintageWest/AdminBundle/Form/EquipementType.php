@@ -18,6 +18,7 @@ class EquipementType extends AbstractType
             ->add('name','text',array('label'=>'Nom de l\'équipement'))
             ->add('description','textarea',array('label'=>'Description'))
             ->add('imgUrl','file',array('label'=>'Visuel de l\'équipement','data_class'=>null))
+            ->add('lang',null,array('label'=>"Langue de l'article"))
         ;
     }
     

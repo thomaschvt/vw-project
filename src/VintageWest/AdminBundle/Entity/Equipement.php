@@ -42,6 +42,12 @@ class Equipement
      */
     private $imgUrl;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="Language", inversedBy="news")
+     * @ORM\JoinColumn(name="language_id", referencedColumnName="id")
+     */
+    protected $lang;
+
     public function __construct() {
         $this->cars = new \Doctrine\Common\Collections\ArrayCollection();
     }
@@ -128,5 +134,19 @@ class Equipement
 
     public function __toString(){
         return $this->name;
+    }
+
+    /**
+     * Get language
+     */
+    public function getLang(){
+        return $this->lang;
+    }
+
+    /**
+     * Set language
+     */
+    public function setLang($lang){
+        $this->lang = $lang;
     }
 }

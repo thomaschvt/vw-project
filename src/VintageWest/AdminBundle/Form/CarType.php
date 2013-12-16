@@ -27,7 +27,7 @@ class CarType extends AbstractType
             ->add('imgUrl','file', array('label' => 'Photo du combi', 'data_class'=>null))
             ->add('description',null, array('label' => 'Description'))
             ->add('imgIllustration','entity', array('label' => 'Photos supplémentaires du combi','class' => 'VintageWest\AdminBundle\Entity\ImageIllustration','multiple' => true))
-
+            ->add('lang',null,array('label'=>"Langue de l'article"))
         ;
     }
     
