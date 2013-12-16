@@ -58,6 +58,11 @@ class Language
     protected $equipement;
 
     /**
+     * @ORM\OneToMany(targetEntity="Prestation", mappedBy="prestation")
+     */
+    protected $prestation;
+
+    /**
      * Get id
      *
      * @return integer 
