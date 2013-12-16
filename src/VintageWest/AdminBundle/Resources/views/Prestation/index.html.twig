@@ -1,0 +1,55 @@
+{% extends '::admin_base.html.twig' %}
+
+{% block body -%}
+    <h1>Prestation list</h1>
+
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Isevent</th>
+                <th>Durationdays</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Lang</th>
+                <th>Name</th>
+                <th>Imgurl</th>
+                <th>Linkedcombi</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('prestations_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.isEvent }}</td>
+                <td>{{ entity.durationDays }}</td>
+                <td>{{ entity.price }}</td>
+                <td>{{ entity.description }}</td>
+                <td>{{ entity.lang }}</td>
+                <td>{{ entity.name }}</td>
+                <td>{{ entity.imgUrl }}</td>
+                <td>{{ entity.linkedCombi }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('prestations_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('prestations_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <ul>
+        <li>
+            <a href="{{ path('prestations_create') }}">
+                Create a new entry
+            </a>
+        </li>
+    </ul>
+    {% endblock %}
