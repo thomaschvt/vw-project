@@ -98,7 +98,6 @@ class Car
      */
     private $description;
 
-
     /**
      * @ORM\ManyToMany(targetEntity="ImageIllustration", inversedBy="cars")
      * @ORM\JoinTable(name="cars_img_illustration")

@@ -50,13 +50,6 @@ class Prestation
     private $description;
 
     /**
-     * @var integer
-     *
-     * @ORM\Column(name="lang", type="integer")
-     */
-    private $lang;
-
-    /**
      * @var string
      *
      * @ORM\Column(name="name", type="string", length=255)
@@ -71,12 +64,10 @@ class Prestation
     private $imgUrl;
 
     /**
-     * @var string
-     *
-     * @ORM\Column(name="linked_combi", type="string", length=64)
+     * @ORM\ManyToOne(targetEntity="Language", inversedBy="prestation")
+     * @ORM\JoinColumn(name="language_id", referencedColumnName="id")
      */
-    private $linkedCombi;
-
+    protected $lang;
 
     /**
      * Get id
