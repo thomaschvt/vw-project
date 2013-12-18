@@ -15,13 +15,13 @@ class PrestationType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('isEvent')
+            ->add('isEvent', 'checkbox', array('label' => 'Est-ce que la Prestation doit être présentée sous une forme événementielle ?','required' => false))
             ->add('durationDays')
             ->add('price')
             ->add('description')
-            ->add('lang')
+            ->add('lang', null, array('label' => 'Langue de la Prestation', 'required' => true))
             ->add('name')
-            ->add('imgUrl')
+            ->add('imgUrl','file', array('label' => 'Photo de la Prestation', 'data_class'=>null))
             ->add('linkedCombi')
         ;
     }

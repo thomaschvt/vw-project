@@ -1,7 +1,10 @@
 parameters:
 #    vintage_west_admin.example.class: VintageWest\AdminBundle\Example
+    vintage_west_admin.imguploader.class: VintageWest\AdminBundle\Services\ImgUploader
 
 services:
 #    vintage_west_admin.example:
 #        class: %vintage_west_admin.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
+    vintage_west_admin.imguploader:
+        class: %vintage_west_admin.imguploader.class%
