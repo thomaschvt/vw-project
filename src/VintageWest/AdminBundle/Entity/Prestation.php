@@ -70,6 +70,12 @@ class Prestation
     protected $lang;
 
     /**
+     * @ORM\ManyToOne(targetEntity="Car", inversedBy="prestation")
+     * @ORM\JoinColumn(name="linked_combi_id", referencedColumnName="id")
+     */
+    protected $linkedCombi;
+
+    /**
      * Get id
      *
      * @return integer 
