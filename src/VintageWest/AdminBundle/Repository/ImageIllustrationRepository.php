@@ -12,4 +12,10 @@ use Doctrine\ORM\EntityRepository;
  */
 class ImageIllustrationRepository extends EntityRepository
 {
+    public function findAllCounted()
+    {
+        return $this->getEntityManager()
+            ->createQuery('SELECT COUNT(a) FROM VintageWestAdminBundle:ImageIllustration a')
+            ->getSingleScalarResult();
+    }
 }

@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Prestation
  *
  * @ORM\Table(name="prestation")
- * @ORM\Entity(repositoryClass="VintageWest\AdminBundle\Entity\PrestationRepository")
+ * @ORM\Entity(repositoryClass="VintageWest\AdminBundle\Repository\PrestationRepository")
  */
 class Prestation
 {
@@ -68,6 +68,12 @@ class Prestation
      * @ORM\JoinColumn(name="language_id", referencedColumnName="id")
      */
     protected $lang;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Car", inversedBy="prestation")
+     * @ORM\JoinColumn(name="linked_combi_id", referencedColumnName="id")
+     */
+    protected $linkedCombi;
 
     /**
      * Get id

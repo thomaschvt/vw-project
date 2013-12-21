@@ -12,4 +12,10 @@ use Doctrine\ORM\EntityRepository;
  */
 class NewsRepository extends EntityRepository
 {
+    public function findAllCounted()
+    {
+        return $this->getEntityManager()
+            ->createQuery('SELECT COUNT(a) FROM VintageWestAdminBundle:News a')
+            ->getSingleScalarResult();
+    }
 }

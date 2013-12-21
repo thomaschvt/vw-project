@@ -1,41 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>{% block title %}Welcome!{% endblock %}</title>
-    {% block stylesheets %}{% endblock %}
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-    <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/css/bootstrap.css') }}" type="text/css" media="all" />
-    <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/css/responsive-responsive.css') }}" type="text/css" media="all" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vintage-West Gestion</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ asset('bundles/vintagewestadmin/css/bootstrap.css') }}" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="{{ asset('bundles/vintagewestadmin/css/sb-admin.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/font-awesome/css/font-awesome.css') }}">
-    <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/css/sb-admin.css') }}">
-    <link rel="stylesheet" href="{{ asset('bundles/vintagewestadmin/css/style.css') }}">
+    <!-- Page Specific CSS -->
+    <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
 </head>
+
 <body>
-<div id="mainWrapper">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                <a class="brand" href="#">Vintage West</a>
-                <div class="nav-collapse collapse">
-                    <ul class="nav">
-                        <li class="active"><a href="{{ path('car') }}">Les Combis</a></li>
-                        <li class="active"><a href="{{ path('news') }}">Les news</a></li>
-                        <li class="active"><a href="{{ path('imageillustration') }}">Les images</a></li>
-                        <li class="active"><a href="{{ path('equipement') }}">Les équipements</a></li>
-                        <li class="active"><a href="{{ path('page') }}">Les pages</a></li>
-                        <li class="active"><a href="{{ path('language') }}">Les langues</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div>
+
+<div id="wrapper">
+
+    <!-- Sidebar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Vintage-West</a>
         </div>
-    </div>
-    <div class="container">
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav side-nav">
+                <li class="active"><a href="{{ path('admin_index') }}"><i class="fa fa-bullseye"></i> Accueil</a></li>
+                <li><a href="{{ path('car') }}"><i class="fa fa-dashboard"></i> Les combis</a></li>
+                <li><a href="{{ path('news') }}"><i class="fa fa-bullhorn"></i> Les news</a></li>
+                <li><a href="{{ path('news') }}"><i class="fa fa-cogs"></i> Les équipements</a></li>
+                <li><a href="{{ path('news') }}"><i class="fa fa-calendar-o"></i> Les prestations</a></li>
+                <li><a href="#"><i class="fa fa-edit"></i> Les commentaires</a></li>
+                <li><a href="{{ path('imageillustration') }}"><i class="fa fa-picture-o"></i> Les images</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench"></i> Création <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ path('page') }}"></i> Les pages</a></li>
+                        <li><a href="{{ path('block') }}"></i>Les blocks</a></li>
+                        <li><a href="{{ path('language') }}">Les langues</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+    <div class="page-wrapper">
         {% block body %}
 
         {% endblock %}
@@ -43,10 +65,19 @@
 </div>
 
 {% block javascripts %}
+    <!-- JavaScript -->
     <script src="{{ asset('bundles/vintagewestadmin/js/jquery-1.10.2.js') }}"></script>
     <script src="{{ asset('bundles/vintagewestadmin/js/bootstrap.js') }}"></script>
-    <script src="{{ asset('bundles/vintagewestadmin/js/script.js') }}"></script>
+
+    <!-- Page Specific Plugins -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+    <script src="{{ asset('bundles/vintagewestadmin/js/morris/chart-data-morris.js') }}"></script>
+    <script src="{{ asset('bundles/vintagewestadmin/js/tablesorter/jquery.tablesorter.js') }}"></script>
+    <script src="{{ asset('bundles/vintagewestadmin/js/tablesorter/tables.js') }}"></script>
+
+
 {% endblock %}
-</div>
+
 </body>
 </html>

@@ -49,11 +49,10 @@ class PrestationController extends Controller
         $form->handleRequest($request);
 
         if ($form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($entity);
-            $em->flush();
-
-            return $this->redirect($this->generateUrl('prestations_show', array('id' => $entity->getId())));
+            $em =  $this->getDoctrine()->getManager();
+            $imgUploader = $this->container->get('vintage_west_admin.imguploader');
+            $imgUploader->init($em, $entity, $form, 'prestation');
+            $entity = $imgUploader->upload();
         }
 
         return array(

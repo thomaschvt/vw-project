@@ -110,6 +110,11 @@ class Car
      */
     protected $lang;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="Prestation", mappedBy="linkedCombi")
+     */
+    private  $linkedCombi;
+
     public function __construct() {
         $this->imgIllustration = new \Doctrine\Common\Collections\ArrayCollection();
     }

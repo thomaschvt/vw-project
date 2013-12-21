@@ -12,4 +12,10 @@ use Doctrine\ORM\EntityRepository;
  */
 class CarRepository extends EntityRepository
 {
+    public function findAllCounted()
+    {
+        return $this->getEntityManager()
+            ->createQuery('SELECT COUNT(a) FROM VintageWestAdminBundle:Car a')
+            ->getSingleScalarResult();
+    }
 }

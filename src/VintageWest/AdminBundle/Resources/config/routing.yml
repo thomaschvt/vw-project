@@ -1,3 +1,6 @@
+admin_index:
+    pattern:  /admin/
+    defaults: { _controller: VintageWestAdminBundle:Default:index }
 car:
     pattern:  /admin/car
     defaults: { _controller: VintageWestAdminBundle:Car:index }
