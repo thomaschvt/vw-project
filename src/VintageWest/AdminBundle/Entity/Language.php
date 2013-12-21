@@ -43,7 +43,7 @@ class Language
     private $imgUrl;
 
     /**
-     * @ORM\OneToMany(targetEntity="News", mappedBy="desk")
+     * @ORM\OneToMany(targetEntity="News", mappedBy="news")
      */
     protected $news;
 
@@ -55,7 +55,14 @@ class Language
     /**
      * @ORM\OneToMany(targetEntity="Equipement", mappedBy="equipements")
      */
-    protected $equipement;
+    protected $equipements;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Page", mappedBy="pages")
+     */
+    protected $pages;
+
+
 
     /**
      * @ORM\OneToMany(targetEntity="Prestation", mappedBy="prestation")

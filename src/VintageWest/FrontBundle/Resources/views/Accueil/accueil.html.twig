@@ -37,20 +37,16 @@ include 'header.php';
         <div class="three-point-bloc">
             <div class="container">
                 <div class="row">
-                    <div class="span4">
-                        <h2 class="title-orange">Une nuit, un week end, une semaine...</h2>
-                        <p class="text-white">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-
-                    </div>
-                    <div class="span4">
-                        <h2 class="title-orange">Des véhicules surs</h2>
-                        <p class="text-white">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-
-                    </div>
-                    <div class="span4">
-                        <h2 class="title-orange">Une expérience inoubliable</h2>
-                        <p class="text-white">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    </div>
+                    {% for block in blockPerPage %}
+                        {% if block.type.name == "block_focused" %}
+                        <div class="span4">
+                            <h2 class="title-orange">{{ block.title }}</h2>
+                            <p class="text-white">
+                                {{ block.content }}
+                            </p>
+                        </div>
+                         {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>

@@ -88,3 +88,75 @@ news_edit:
 news_update:
     pattern:  /admin/news/update/{id}
     defaults: { _controller: VintageWestAdminBundle:News:update }
+prestations:
+   pattern:  /admin/prestations
+   defaults: { _controller: VintageWestAdminBundle:Prestation:index }
+prestations_create:
+   pattern:  /admin/prestations/create
+   defaults: { _controller: VintageWestAdminBundle:Prestation:create }
+prestations_show:
+   pattern:  /admin/prestations/{id}
+   defaults: { _controller: VintageWestAdminBundle:Prestation:show }
+prestations_delete:
+   pattern:  /admin/prestations/delete/{id}
+   defaults: { _controller: VintageWestAdminBundle:Prestation:delete }
+prestations_edit:
+   pattern:  /admin/prestations/edit/{id}
+   defaults: { _controller: VintageWestAdminBundle:Prestation:edit }
+prestations_update:
+   pattern:  /admin/prestations/update/{id}
+   defaults: { _controller: VintageWestAdminBundle:Prestation:update }
+page:
+   pattern:  /admin/page
+   defaults: { _controller: VintageWestAdminBundle:Page:index }
+page_create:
+   pattern:  /admin/page/create
+   defaults: { _controller: VintageWestAdminBundle:Page:create }
+page_show:
+   pattern:  /admin/page/{id}
+   defaults: { _controller: VintageWestAdminBundle:Page:show }
+page_delete:
+   pattern:  /admin/page/delete/{id}
+   defaults: { _controller: VintageWestAdminBundle:Page:delete }
+page_edit:
+   pattern:  /admin/page/edit/{id}
+   defaults: { _controller: VintageWestAdminBundle:Page:edit }
+page_update:
+   pattern:  /admin/page/update/{id}
+   defaults: { _controller: VintageWestAdminBundle:Page:update }
+block:
+   pattern:  /admin/block
+   defaults: { _controller: VintageWestAdminBundle:Block:index }
+block_create:
+   pattern:  /admin/block/create
+   defaults: { _controller: VintageWestAdminBundle:Block:create }
+block_show:
+   pattern:  /admin/block/{id}
+   defaults: { _controller: VintageWestAdminBundle:Block:show }
+block_delete:
+   pattern:  /admin/block/delete/{id}
+   defaults: { _controller: VintageWestAdminBundle:Block:delete }
+block_edit:
+   pattern:  /admin/block/edit/{id}
+   defaults: { _controller: VintageWestAdminBundle:Block:edit }
+block_update:
+   pattern:  /admin/block/update/{id}
+   defaults: { _controller: VintageWestAdminBundle:Block:update }
+typeblock:
+   pattern:  /admin/typeblock
+   defaults: { _controller: VintageWestAdminBundle:TypeBlock:index }
+typeblock_create:
+   pattern:  /admin/typeblock/create
+   defaults: { _controller: VintageWestAdminBundle:TypeBlock:create }
+typeblock_show:
+   pattern:  /admin/typeblock/{id}
+   defaults: { _controller: VintageWestAdminBundle:TypeBlock:show }
+typeblock_delete:
+   pattern:  /admin/typeblock/delete/{id}
+   defaults: { _controller: VintageWestAdminBundle:TypeBlock:delete }
+typeblock_edit:
+   pattern:  /admin/typeblock/edit/{id}
+   defaults: { _controller: VintageWestAdminBundle:TypeBlock:edit }
+typeblock_update:
+   pattern:  /admin/typeblock/update/{id}
+   defaults: { _controller: VintageWestAdminBundle:TypeBlock:update }

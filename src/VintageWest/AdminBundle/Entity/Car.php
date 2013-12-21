@@ -105,7 +105,7 @@ class Car
     private $imgIllustration;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Language", inversedBy="news")
+     * @ORM\ManyToOne(targetEntity="Language", inversedBy="cars")
      * @ORM\JoinColumn(name="language_id", referencedColumnName="id")
      */
     protected $lang;

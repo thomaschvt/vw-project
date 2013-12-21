@@ -18,9 +18,13 @@ class AccueilController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
         $entitiesNews = $em->getRepository('VintageWestAdminBundle:News')->findByLang(2);
+        $entitiesBlocks = $em->getRepository('VintageWestAdminBundle:Block')->findByPage(2);
+
+
+
         $entitiesIllustration = $em->getRepository('VintageWestAdminBundle:ImageIllustration')->findByisInCarrousel(true);
 
-        return $this->render('VintageWestFrontBundle:Accueil:accueil.html.twig',array('newsPerLang'=>$entitiesNews, 'imgsCarrousel'=>$entitiesIllustration));
+        return $this->render('VintageWestFrontBundle:Accueil:accueil.html.twig',array('newsPerLang'=>$entitiesNews, 'imgsCarrousel'=>$entitiesIllustration, 'blockPerPage'=>$entitiesBlocks));
     }
 
    public function traductionAction($lang)

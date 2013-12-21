@@ -7,21 +7,21 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
-use VintageWest\AdminBundle\Entity\Car;
-use VintageWest\AdminBundle\Form\CarType;
+use VintageWest\AdminBundle\Entity\Page;
+use VintageWest\AdminBundle\Form\PageType;
 
 /**
- * Car controller.
+ * Page controller.
  *
- * @Route("/car")
+ * @Route("/page")
  */
-class CarController extends Controller
+class PageController extends Controller
 {
 
     /**
-     * Lists all Car entities.
+     * Lists all Page entities.
      *
-     * @Route("/", name="car")
+     * @Route("/", name="page")
      * @Method("GET")
      * @Template()
      */
@@ -29,51 +29,31 @@ class CarController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
 
-        $entities = $em->getRepository('VintageWestAdminBundle:Car')->findAll();
+        $entities = $em->getRepository('VintageWestAdminBundle:Page')->findAll();
 
         return array(
             'entities' => $entities,
         );
     }
     /**
-     * Creates a new Car entity.
+     * Creates a new Page entity.
      *
-     * @Route("/", name="car_create")
+     * @Route("/", name="page_create")
      * @Method("POST")
-     * @Template("VintageWestAdminBundle:Car:new.html.twig")
+     * @Template("VintageWestAdminBundle:Page:new.html.twig")
      */
     public function createAction(Request $request)
     {
-        $entity = new Car();
+        $entity = new Page();
         $form = $this->createCreateForm($entity);
         $form->handleRequest($request);
 
         if ($form->isValid()) {
             $em = $this->getDoctrine()->getManager();
-
-            //upload d'img
-            //on définit le dossier ou envoyer les images
-            $dir = "img/combis";
-
-            //on recupère le nom original du fichier
-            $nomBase = $form['imgUrl']->getData()->getClientOriginalName();
-            //on découpe le nom du fichier pr recup l'extension
-            $extension=strrchr($nomBase,'.');
-            $extension=substr($extension,1) ;
-            //on génère le nouveau nom du fichier
-            $randNom = rand(0,1000000);
-            $dateNom = time();
-            $NewNom = 'img_'.$randNom.$dateNom.'.'.$extension;
-            //chemin a stocker pour récupère l'image
-            $pathImg = 'img/combis/'.$NewNom;
-            //upload de l'image avec son nouveau nom
-            $form['imgUrl']->getData()->move($dir, $NewNom);
-
-            $entity->setImgUrl($NewNom);
             $em->persist($entity);
             $em->flush();
 
-            return $this->redirect($this->generateUrl('car_show', array('id' => $entity->getId())));
+            return $this->redirect($this->generateUrl('page_show', array('id' => $entity->getId())));
         }
 
         return array(
@@ -83,16 +63,16 @@ class CarController extends Controller
     }
 
     /**
-    * Creates a form to create a Car entity.
+    * Creates a form to create a Page entity.
     *
-    * @param Car $entity The entity
+    * @param Page $entity The entity
     *
     * @return \Symfony\Component\Form\Form The form
     */
-    private function createCreateForm(Car $entity)
+    private function createCreateForm(Page $entity)
     {
-        $form = $this->createForm(new CarType(), $entity, array(
-            'action' => $this->generateUrl('car_create'),
+        $form = $this->createForm(new PageType(), $entity, array(
+            'action' => $this->generateUrl('page_create'),
             'method' => 'POST',
         ));
 
@@ -102,15 +82,15 @@ class CarController extends Controller
     }
 
     /**
-     * Displays a form to create a new Car entity.
+     * Displays a form to create a new Page entity.
      *
-     * @Route("/new", name="car_new")
+     * @Route("/new", name="page_new")
      * @Method("GET")
      * @Template()
      */
     public function newAction()
     {
-        $entity = new Car();
+        $entity = new Page();
         $form   = $this->createCreateForm($entity);
 
         return array(
@@ -120,9 +100,9 @@ class CarController extends Controller
     }
 
     /**
-     * Finds and displays a Car entity.
+     * Finds and displays a Page entity.
      *
-     * @Route("/{id}", name="car_show")
+     * @Route("/{id}", name="page_show")
      * @Method("GET")
      * @Template()
      */
@@ -130,10 +110,10 @@ class CarController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
 
-        $entity = $em->getRepository('VintageWestAdminBundle:Car')->find($id);
+        $entity = $em->getRepository('VintageWestAdminBundle:Page')->find($id);
 
         if (!$entity) {
-            throw $this->createNotFoundException('Unable to find Car entity.');
+            throw $this->createNotFoundException('Unable to find Page entity.');
         }
 
         $deleteForm = $this->createDeleteForm($id);
@@ -145,9 +125,9 @@ class CarController extends Controller
     }
 
     /**
-     * Displays a form to edit an existing Car entity.
+     * Displays a form to edit an existing Page entity.
      *
-     * @Route("/{id}/edit", name="car_edit")
+     * @Route("/{id}/edit", name="page_edit")
      * @Method("GET")
      * @Template()
      */
@@ -155,10 +135,10 @@ class CarController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
 
-        $entity = $em->getRepository('VintageWestAdminBundle:Car')->find($id);
+        $entity = $em->getRepository('VintageWestAdminBundle:Page')->find($id);
 
         if (!$entity) {
-            throw $this->createNotFoundException('Unable to find Car entity.');
+            throw $this->createNotFoundException('Unable to find Page entity.');
         }
 
         $editForm = $this->createEditForm($entity);
@@ -172,16 +152,16 @@ class CarController extends Controller
     }
 
     /**
-    * Creates a form to edit a Car entity.
+    * Creates a form to edit a Page entity.
     *
-    * @param Car $entity The entity
+    * @param Page $entity The entity
     *
     * @return \Symfony\Component\Form\Form The form
     */
-    private function createEditForm(Car $entity)
+    private function createEditForm(Page $entity)
     {
-        $form = $this->createForm(new CarType(), $entity, array(
-            'action' => $this->generateUrl('car_update', array('id' => $entity->getId())),
+        $form = $this->createForm(new PageType(), $entity, array(
+            'action' => $this->generateUrl('page_update', array('id' => $entity->getId())),
             'method' => 'PUT',
         ));
 
@@ -190,20 +170,20 @@ class CarController extends Controller
         return $form;
     }
     /**
-     * Edits an existing Car entity.
+     * Edits an existing Page entity.
      *
-     * @Route("/{id}", name="car_update")
+     * @Route("/{id}", name="page_update")
      * @Method("PUT")
-     * @Template("VintageWestAdminBundle:Car:edit.html.twig")
+     * @Template("VintageWestAdminBundle:Page:edit.html.twig")
      */
     public function updateAction(Request $request, $id)
     {
         $em = $this->getDoctrine()->getManager();
 
-        $entity = $em->getRepository('VintageWestAdminBundle:Car')->find($id);
+        $entity = $em->getRepository('VintageWestAdminBundle:Page')->find($id);
 
         if (!$entity) {
-            throw $this->createNotFoundException('Unable to find Car entity.');
+            throw $this->createNotFoundException('Unable to find Page entity.');
         }
 
         $deleteForm = $this->createDeleteForm($id);
@@ -213,7 +193,7 @@ class CarController extends Controller
         if ($editForm->isValid()) {
             $em->flush();
 
-            return $this->redirect($this->generateUrl('car_edit', array('id' => $id)));
+            return $this->redirect($this->generateUrl('page_edit', array('id' => $id)));
         }
 
         return array(
@@ -223,9 +203,9 @@ class CarController extends Controller
         );
     }
     /**
-     * Deletes a Car entity.
+     * Deletes a Page entity.
      *
-     * @Route("/{id}", name="car_delete")
+     * @Route("/{id}", name="page_delete")
      * @Method("DELETE")
      */
     public function deleteAction(Request $request, $id)
@@ -235,21 +215,21 @@ class CarController extends Controller
 
         if ($form->isValid()) {
             $em = $this->getDoctrine()->getManager();
-            $entity = $em->getRepository('VintageWestAdminBundle:Car')->find($id);
+            $entity = $em->getRepository('VintageWestAdminBundle:Page')->find($id);
 
             if (!$entity) {
-                throw $this->createNotFoundException('Unable to find Car entity.');
+                throw $this->createNotFoundException('Unable to find Page entity.');
             }
 
             $em->remove($entity);
             $em->flush();
         }
 
-        return $this->redirect($this->generateUrl('car'));
+        return $this->redirect($this->generateUrl('page'));
     }
 
     /**
-     * Creates a form to delete a Car entity by id.
+     * Creates a form to delete a Page entity by id.
      *
      * @param mixed $id The entity id
      *
@@ -258,7 +238,7 @@ class CarController extends Controller
     private function createDeleteForm($id)
     {
         return $this->createFormBuilder()
-            ->setAction($this->generateUrl('car_delete', array('id' => $id)))
+            ->setAction($this->generateUrl('page_delete', array('id' => $id)))
             ->setMethod('DELETE')
             ->add('submit', 'submit', array('label' => 'Delete'))
             ->getForm()
