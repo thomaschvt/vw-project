@@ -22,7 +22,7 @@
                         <table class="table table-bordered table-hover table-striped tablesorter">
                             <thead>
                             <tr>
-
+                                <th>Name</th>
                                 <th>Model</th>
                                 <th>Year</th>
                                 <th>Dimension</th>
@@ -43,6 +43,7 @@
                             {% for entity in entities %}
                                 <tr>
 
+                                    <td>{{ entity.name }}</td>
                                     <td>{{ entity.model }}</td>
                                     <td>{{ entity.year }}</td>
                                     <td>{{ entity.dimension }}</td>

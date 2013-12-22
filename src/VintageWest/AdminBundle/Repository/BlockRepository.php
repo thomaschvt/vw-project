@@ -18,4 +18,13 @@ class BlockRepository extends EntityRepository
             ->createQuery('SELECT COUNT(a) FROM VintageWestAdminBundle:Block a')
             ->getSingleScalarResult();
     }
+
+    public function findAllByPageAndLanguage($page,$language){
+
+        return $this->getEntityManager()
+            ->createQuery('SELECT a FROM VintageWestAdminBundle:Block a LEFT JOIN a.type t WHERE a.page = :page AND a.lang = :language')
+            ->setParameters(array('page'=>$page,'language'=>$language))
+            ->getResult();
+
+    }
 }

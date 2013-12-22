@@ -5,6 +5,14 @@ trad:
     pattern:  /accueil/{lang}
     defaults: { _controller: VintageWestFrontBundle:Accueil:traduction}
 
+
 prestation:
     pattern:  /prestation
     defaults: { _controller: VintageWestFrontBundle:Default:prestation}
+
+combi_list:
+    pattern:  /combis
+    defaults: { _controller: VintageWestFrontBundle:Combis:index}
+combi_details:
+    pattern:  /combis/{id}
+    defaults: { _controller: VintageWestFrontBundle:Combis:detail}

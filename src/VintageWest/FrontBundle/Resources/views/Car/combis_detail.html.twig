@@ -1,0 +1,71 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+</div><!--Fermeture wrapper-->
+<div class="orange-bloc">
+    <div class="container">
+        <div class="row" id="wrapper-combis-detail">
+            <div class="span6">
+                <h2 class="title-brown">{{ combi.name }}</h2>
+                <p>
+                    <img class="visuel-combi-com-list" src="{{ asset('img/combis/'~combi.imgUrl) }}"/>
+                </p>
+            </div>
+            <div class="span6">
+                <h2 class="title-brown">{{ 'Détails'|trans}}</h2>
+                <p class="">
+                    <div class="item-detail-combi">
+                    <span class="item-detail-combi"><li class="fa fa-arrow-circle-o-right"></li> {{ 'Modèle'|trans }} :</span><span> {{ combi.model }}</span>
+                    </div>
+                    <div class="item-detail-combi">
+                        <span class="item-detail-combi"><li class="fa fa-arrow-circle-o-right"></li> {{ 'Année'|trans }} :</span> <span> {{ combi.year }} </span>
+                    </div>
+                    <div class="item-detail-combi">
+                        <span class="item-detail-combi"><li class="fa fa-arrow-circle-o-right"></li> {{ 'Places'|trans }} : </span><span> {{ combi.seats }}</span>
+                    </div>
+                    <div class="item-detail-combi">
+                        <span class="item-detail-combi"><li class="fa fa-arrow-circle-o-right"></li> {{ 'Couchages'|trans }} : </span><span> {{ combi.sleeping }} </span>
+                    </div>
+                    <div class="item-detail-combi">
+                        <span class="item-detail-combi" ><li class="fa fa-arrow-circle-o-right"></li> {{ 'Carburant'|trans }} :</span> <span> {{ combi.carburation }}</span>
+                    </div>
+                    <div class="item-detail-combi">
+                        <span class="item-detail-combi"><li class="fa fa-arrow-circle-o-right"></li> {{ 'Moteur'|trans }} :</span> <span> {{ combi.Engine }} cc</span>
+                    </div>
+                    <div class="item-detail-combi">
+                        <span class="item-detail-combi"><li class="fa fa-arrow-circle-o-right"></li> {{ 'Comsommation moyenne'|trans }} :</span> <span> {{ combi.consumption }}L / 100km</span>
+                    </div>
+                    <div class="item-detail-combi">
+                        <span class="item-detail-combi"><li class="fa fa-arrow-circle-o-right"></li> {{ 'Dimensions'|trans }} :</span> <span> {{ combi.dimension }} </span>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="span12">
+            <h2 class="title-brown">{{ "L'histoire"|trans}}</h2>
+            <p>
+                {{ combi.description }}
+            </p>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        <h2 class="title-brown">{{ 'Galerie du combis'}}</h2>
+        <div class="row">
+            {% for image in combi.imgIllustration %}
+                <div class="span2 >
+                    <a href="{{ asset('img/illustration/'~image.url) }}" rel="prettyPhoto">
+                        <img class="mini-img-combi-details"" src="{{ asset('img/illustration/'~image.url) }}">
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock body %}

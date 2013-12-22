@@ -3,12 +3,14 @@
 namespace VintageWest\AdminBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use VintageWest\AdminBundle\Entity\Car;
 use VintageWest\AdminBundle\Form\CarType;
+
 
 /**
  * Car controller.
@@ -27,6 +29,12 @@ class CarController extends Controller
      */
     public function indexAction()
     {
+        $session = new Session();
+        $session->start();
+        // définit et récupère des attributs de session
+        $session->set('name', 'Drak');
+
+        var_dump($session->get('name'));
         $em = $this->getDoctrine()->getManager();
 
         $entities = $em->getRepository('VintageWestAdminBundle:Car')->findAll();
@@ -49,10 +57,30 @@ class CarController extends Controller
         $form->handleRequest($request);
 
         if ($form->isValid()) {
-            $em =  $this->getDoctrine()->getManager();
-            $imgUploader = $this->container->get('vintage_west_admin.imguploader');
-            $imgUploader->init($em, $entity, $form, 'combis');
-            $entity = $imgUploader->upload();
+            $em = $this->getDoctrine()->getManager();
+
+            //upload d'img
+            //on définit le dossier ou envoyer les images
+            $dir = "img/combis";
+
+            //on recupère le nom original du fichier
+            $nomBase = $form['imgUrl']->getData()->getClientOriginalName();
+            //on découpe le nom du fichier pr recup l'extension
+            $extension=strrchr($nomBase,'.');
+            $extension=substr($extension,1) ;
+            //on génère le nouveau nom du fichier
+            $randNom = rand(0,1000000);
+            $dateNom = time();
+            $NewNom = 'img_'.$randNom.$dateNom.'.'.$extension;
+            //chemin a stocker pour récupère l'image
+            $pathImg = 'img/combis/'.$NewNom;
+            //upload de l'image avec son nouveau nom
+            $form['imgUrl']->getData()->move($dir, $NewNom);
+
+            $entity->setImgUrl($NewNom);
+
+            $em->persist($entity);
+            $em->flush();
 
             return $this->redirect($this->generateUrl('car_show', array('id' => $entity->getId())));
         }
@@ -192,6 +220,28 @@ class CarController extends Controller
         $editForm->handleRequest($request);
 
         if ($editForm->isValid()) {
+            //upload d'img
+            //on définit le dossier ou envoyer les images
+            $dir = "img/combis";
+
+            //on recupère le nom original du fichier
+            $nomBase = $editForm['imgUrl']->getData()->getClientOriginalName();
+            //on découpe le nom du fichier pr recup l'extension
+            $extension=strrchr($nomBase,'.');
+            $extension=substr($extension,1) ;
+            //on génère le nouveau nom du fichier
+            $randNom = rand(0,1000000);
+            $dateNom = time();
+            $NewNom = 'img_'.$randNom.$dateNom.'.'.$extension;
+            //chemin a stocker pour récupère l'image
+            $pathImg = 'img/combis/'.$NewNom;
+            //upload de l'image avec son nouveau nom
+            $editForm['imgUrl']->getData()->move($dir, $NewNom);
+
+            $entity->setImgUrl($NewNom);
+
+            $em->persist($entity);
+
             $em->flush();
 
             return $this->redirect($this->generateUrl('car_edit', array('id' => $id)));
@@ -217,7 +267,7 @@ class CarController extends Controller
         if ($form->isValid()) {
             $em = $this->getDoctrine()->getManager();
             $entity = $em->getRepository('VintageWestAdminBundle:Car')->find($id);
-
+            var_dump($entity);
             if (!$entity) {
                 throw $this->createNotFoundException('Unable to find Car entity.');
             }

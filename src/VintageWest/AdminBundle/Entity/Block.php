@@ -52,7 +52,7 @@ class Block
     /**
      * @var string
      *
-     * @ORM\Column(name="icon", type="string", length=255)
+     * @ORM\Column(name="icon", type="string", length=255, nullable=true)
      */
     private $icon;
 
@@ -68,6 +68,11 @@ class Block
      */
     protected $type;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="Language", inversedBy="blocks")
+     * @ORM\JoinColumn(name="language_id", referencedColumnName="id")
+     */
+    protected $lang;
 
     /**
      * Get id
@@ -238,5 +243,19 @@ class Block
     public function getType()
     {
         return $this->type;
+    }
+
+    /**
+     * Get language
+     */
+    public function getLang(){
+        return $this->lang;
+    }
+
+    /**
+     * Set language
+     */
+    public function setLang($lang){
+        $this->lang = $lang;
     }
 }

@@ -62,7 +62,10 @@ class Language
      */
     protected $pages;
 
-
+    /**
+     * @ORM\OneToMany(targetEntity="Block", mappedBy="blocks")
+     */
+    protected $blocks;
 
     /**
      * @ORM\OneToMany(targetEntity="Prestation", mappedBy="prestation")

@@ -20,8 +20,9 @@ class BlockType extends AbstractType
             ->add('title')
             ->add('content','textarea',array('label'=>'Contenu'))
             ->add('url')
-            ->add('icon','file', array('label' => 'Pictogramme du bloc', 'data_class'=>null))
+            ->add('icon','file', array('label' => 'Pictogramme du bloc', 'data_class'=>null,'required'=>false))
             ->add('page','entity', array('label' => 'Page parente','class' => 'VintageWest\AdminBundle\Entity\Page'))
+            ->add('lang','entity',array('label'=>"Langue de l'article",'class' => 'VintageWest\AdminBundle\Entity\Language'))
         ;
     }
     

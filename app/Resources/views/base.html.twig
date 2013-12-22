@@ -30,11 +30,6 @@
 </head>
 
 <body>
-<!--[if lt IE 7]>
-<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-<![endif]-->
-
-
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
@@ -46,8 +41,8 @@
             <a class="brand" href="#">Vintage West</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li class="active"><a href="index.php">{{ 'Accueil'|trans }}</a></li>
-                    <li class="active"><a href="#">{{ 'Nos combis'|trans }}</a></li>
+                    <li class="active"><a href="{{path('vintage_west_front_homepage')}}">{{ 'Accueil'|trans }}</a></li>
+                    <li class="active"><a href="{{path('combi_list')}}">{{ 'Nos combis'|trans }}</a></li>
                     <li class="active"><a href="{{ path('prestation') }}">{{ 'Nos prestations'|trans }}</a></li>
                     <li class="active"><a href="actualite.php">{{ 'Actualités'|trans }}</a></li>
                     <li class="active"><a href="contact.php">{{ 'Contact'|trans }}</a></li>
@@ -66,7 +61,13 @@
         </div>
     </div>
 </div>
-        {% block body %}{% endblock %}
+<div id="mainWrapper">
+    <div class="container">
+        {% block body %}
+
+        {% endblock %}
+    </div>
+</div>
         {% block javascripts %}
             <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
             <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

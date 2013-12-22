@@ -4,8 +4,7 @@
 include 'header.php';
 ?>
 
-    <div id="mainWrapper">
-        <div class="container">
+
             <!-- Main hero unit for a primary marketing message or call to action -->
             <div class="row">
                 <div id="slider" class="span8">
@@ -18,23 +17,25 @@ include 'header.php';
                     </span>
                             </a>
                         {% endfor %}
-
                     </div>
-
                 </div>
                 <div id="news" class="span4">
                     <h2 class="title-brown">News</h2>
+                    <div id="moving-block-news">
                     {% for news in newsPerLang %}
                         <div class="mini-news">
                             <h4  class="">{{ news.title }}</h4>
                             <p>{{ news.content }}</p>
                         </div>
                     {% endfor %}
+                    </div>
+                </div>
+                <div id="wrapper-btn-next-news">
+                    <a id="btn-next-news"><li class="fa fa-angle-double-down fa-2x"></li></a>
                 </div>
             </div>
-
         </div>
-        <div class="three-point-bloc">
+        <div class="brown-bloc">
             <div class="container">
                 <div class="row">
                     {% for block in blockPerPage %}
@@ -52,39 +53,33 @@ include 'header.php';
         </div>
         <div class="container">
             <div class="row">
-                <div class="span12">
-                    <h2 class="title-brown">Concept</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec lectus augue. Vestibulum commodo sapien risus, eu sodales nisl pulvinar sit amet. Mauris eleifend vel ipsum in faucibus. Aliquam in nunc et sem feugiat gravida. Sed vitae ultrices mi. Ut vel metus augue. Aliquam lectus dui, tincidunt condimentum consectetur in, porttitor ac ante. Curabitur a eros non nisi consectetur egestas. Praesent vitae dolor feugiat, rhoncus diam vitae, ultrices tellus.
-
-                        Pellentesque ac augue aliquam, tincidunt metus eu, rhoncus arcu. Suspendisse fringilla odio auctor velit iaculis elementum. Aenean id odio tristique, pulvinar elit in, venenatis ipsum. Nulla facilisi. Vivamus vel porttitor elit, non posuere justo. In a vestibulum erat, id iaculis lacus. Ut commodo interdum elit, in faucibus sem sollicitudin in. Mauris blandit, purus a pulvinar malesuada, diam nulla accumsan urna, ut auctor tellus ante a neque. Mauris ac rhoncus nulla. Integer dictum mi sed iaculis tincidunt. Pellentesque a felis sit amet tellus faucibus semper.
-                    </p>
-                </div>
+                {% for block in blockPerPage %}
+                    {% if block.type.name == "block_full_width" %}
+                        <div class="span12">
+                            <h2 class="title-brown">{{ block.title }}</h2>
+                            <p>
+                                {{ block.content }}
+                            </p>
+                        </div>
+                    {% endif %}
+                {% endfor %}
             </div>
             <div class="row">
-                <div class="span3">
-                    <h2 class="title-brown">Nos combis</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="span3">
-                    <h2 class="title-brown">Nos prestations</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="span3">
-                    <h2 class="title-brown">Les tarifs</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="span3">
-                    <h2 class="title-brown">Actualités</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
-                </div>
+                {% for block in blockPerPage %}
+                    {% if block.type.name == "block_col_4" %}
+                        <div class="span3">
+                            <h2 class="title-brown">{{ block.title }}</h2>
+                            <p>
+                                {{ block.content }}
+                            </p>
+                            <p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+
             </div>
-        </div>
-    </div>
+
+
     <?php
 include 'footer.php';
 ?>

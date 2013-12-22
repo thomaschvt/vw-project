@@ -1,0 +1,46 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+
+    <div class="row" id="wrapper-combis">
+    {% for block in blockPerPage %}
+        {% if block.type.name == "block_full_width" %}
+            <div class="span12">
+                <h2 class="title-brown">{{ block.title }}</h2>
+                <p>
+                    {{ block.content }}
+                </p>
+            </div>
+        {% endif %}
+    {% endfor %}
+    </div>
+</div> <!--Fermeture du container-->
+    <div class="brown-bloc">
+        <div class="container">
+            <div class="row">
+                {% for combi in combis %}
+                        <div class="span6">
+                            <h2 class="title-orange">{{ combi.name}}</h2>
+                            <p>
+                                <img class="visuel-combi-com-list" src="{{ asset('img/combis/'~combi.imgUrl) }}"/>
+                            </p>
+                            <div class="row">
+                            <p class="text-white span2">
+                              <span> {{ 'Modèle'|trans }} :</span><span> {{ combi.model }}</span></br>
+                              <span>{{ 'Année'|trans }} :</span> <span> {{ combi.year }} </span></br>
+                              <span>{{ 'Places'|trans }} : </span><span> {{ combi.seats }}</span></br>
+                               <span>{{ 'Couchages'|trans }} : </span><span> {{ combi.sleeping }} </span>
+                            </p>
+                            <p class="text-white span4">
+                                {{ combi.description|length > 50 ? combi.description|slice(0, 200) ~ '...' : combi.description  }}
+                            </p>
+                            </div>
+                            <p>
+                                <button class="btn btn-warning btn-with-link"><a href="{{ path('combi_details',{'id' : combi.id}) }}"><i class="fa fa-plus-circle"></i> {{ 'de détails' }}</a></button>
+                            </p>
+                        </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock body %}

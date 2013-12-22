@@ -18,4 +18,12 @@ class LanguageRepository extends EntityRepository
             ->createQuery('SELECT COUNT(a) FROM VintageWestAdminBundle:Language a')
             ->getSingleScalarResult();
     }
+
+    public function getIdLang($lang)
+    {
+        return $this->getEntityManager()
+            ->createQuery('SELECT a.id FROM VintageWestAdminBundle:LAnguage a WHERE a.shorten = :lang')
+            ->setParameter('lang',$lang)
+            ->getSingleScalarResult();
+    }
 }
